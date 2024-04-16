@@ -13,4 +13,15 @@ function min0(number) {
   return number > 0 ? number : 0;
 }
 
-module.exports = { roundUp, roundDown, min0 };
+// This function calculates the Residual Joint Income as defined by the OAS Act.
+function calcRJI(INC, RPE, SQF){
+  return min0((INC / 12) - ((4/3) * RPE * SQF))
+}
+
+// This function calculates the Rounded Pension Equivalent, ad defined by the OAS Act
+function calcRPE(PE){
+  return roundUp(PE, 3)
+}
+
+
+module.exports = { roundUp, roundDown, min0, calcRJI, calcRPE };

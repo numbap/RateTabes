@@ -1,6 +1,6 @@
 const { roundUp, roundDown, min0 } = require("./utils.js");
 
-function calculateAllowance(SE, TU, PE, INC, YEARS = 10, DATE = "2024-04-01") {
+function calculateAllowance(SE, TU, PE, INC, IYEARS = 10, DATE = "2024-04-01") {
   //////////////////////////////////////////////////////////////////
   // This function is accurate for rates from 04-01-2024 and beyond
   // Cannot handle retroactive rate calculations
@@ -10,11 +10,11 @@ function calculateAllowance(SE, TU, PE, INC, YEARS = 10, DATE = "2024-04-01") {
   // Top-Up (TU)
   // Pension Equivalent (PE)
   // Joint Income (INC)
-  // IO Years (YEARS)
+ // IO Years (IYEARS)
   // Date to be used in future iterations for retroactive calculations
 
   // Calculate Special Qualifying Factor (SQF)
-  const SQF = Math.max(1, YEARS > 10 ? (YEARS - 10) / 10 : 1);
+  const SQF = Math.min(1, IYEARS/10);
 
   // Calculate Monthly Joint Income (MJI) and MJI over $4000 (MJI4K)
   const MJI = min0(INC / 12);

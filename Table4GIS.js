@@ -1,6 +1,6 @@
 const { roundUp, roundDown, min0 } = require("./utils.js");
 
-function calculateAllowance(SE, TU, PE, INC, YEARS = 10, DATE = "2024-04-01") {
+function calculateTable4GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "2024-04-01") {
   //////////////////////////////////////////////////////////////////
   // This function is accurate for rates from 04-01-2024 and beyond
   // Cannot handle retroactive rate calculations
@@ -13,41 +13,57 @@ function calculateAllowance(SE, TU, PE, INC, YEARS = 10, DATE = "2024-04-01") {
   // IO Years (YEARS)
   // Date to be used in future iterations for retroactive calculations
 
+  // Calculate Full Monthly Pension
+  const FMP = AGE >= 75 ? PE * 1.1 : PE
+
+  // Calculate Rounded Pension Equivalent
+  const RPE = roundUp(PE, 3)
+  
+  // Calculate Years Based OAS
+  const YOAS = (Math.min(YEARS, 40)/40) * FMP
+
   // Calculate Special Qualifying Factor (SQF)
-  const SQF = Math.max(1, YEARS > 10 ? (YEARS - 10) / 10 : 1);
+  const SQF = Math.min(1, IYEARS/10);
 
   // Calculate Monthly Joint Income (MJI) and MJI over $4000 (MJI4K)
   const MJI = min0(INC / 12);
-  const MJI4K = min0((INC - 4000) / 12);
+  const MJI4K = min0((INC - 4000) / 24);
+
 
   // Step 3: Apply SQF to System Values
   const QSE = SQF * SE;
   const QPE = SQF * PE;
   const QTU = SQF * TU;
-  const QRPE = roundUp(PE, 3) * SQF;
-  const PRODUCT = (4 / 3) * QRPE;
+  const QRPE = RPE * SQF;
 
-  // Calculate 3/4 Monthly Joint Income (MJI3/4)
-  const MJI34 = min0((3 / 4) * roundDown(MJI, 4));
+  // // Calculate 3/4 Monthly Joint Income (MJI3/4)
+  // const MJI34 = min0((3 / 4) * roundDown(MJI, 4));
 
   // Calculate Residual Joint Income (RJI)
-  const RJI = MJI - roundUp((4 / 3) * QRPE, 4);
+  const RJI = min0(MJI - roundUp((4 / 3) * QRPE, 4));
+  const RJIA = RJI / 4
+
+  // Calculate Base Summplement (BS)
+  const BS = ((SE + FMP - YOAS) * SQF) - RJIA
+
+  // Calculate Modified Top-Up (MTU)
+  const MTU = QTU - roundDown(MJI4K, 4)
 
   // Calculate Income-Adjusted Top-Up (IATU)
-  const IATU = min0(QTU - roundDown(MJI4K / 2, 4) / 4);
+  const GIS = BS + MTU + FMP
 
-  let ALW;
+  // let ALW;
 
-  // Step 7: Calculate Total Allowance (ALW) based on INC
-  if (INC === 0) {
-    ALW = QPE + QSE + QTU;
-  } else if (MJI <= PRODUCT) {
-    ALW = QSE + (QPE - MJI34) + IATU;
-  } else {
-    ALW = QSE - roundDown(RJI, 4) / 4 + IATU;
-  }
+  // // Step 7: Calculate Total Allowance (ALW) based on INC
+  // if (INC === 0) {
+  //   ALW = QPE + QSE + QTU;
+  // } else if (MJI <= PRODUCT) {
+  //   ALW = QSE + (QPE - MJI34) + IATU;
+  // } else {
+  //   ALW = QSE - roundDown(RJI, 4) / 4 + IATU;
+  // }
 
-  return ALW.toFixed(2);
+  return GIS.toFixed(2);
 }
 
 // Example usage
@@ -59,19 +75,22 @@ const TU = 46.76;
 const PE = 713.34;
 // Joint Income (INC)
 const INC = 11000;
+// OAS and International Years
+const YEARS = 40
+// Client age
+const AGE = 65
 
-const allowance = calculateAllowance(SE, TU, PE, INC);
 console.log("=======================================");
-console.log(0, calculateAllowance(SE, TU, PE, 0), ":", 1354.69);
-console.log(100, calculateAllowance(SE, TU, PE, 100), ":", 1348.69);
-console.log(1000, calculateAllowance(SE, TU, PE, 1000), ":", 1294.69);
-console.log(2500, calculateAllowance(SE, TU, PE, 2500), ":", 1198.69);
-console.log(5000, calculateAllowance(SE, TU, PE, 5000), ":", 1032.69);
-console.log(8000, calculateAllowance(SE, TU, PE, 8000), ":", 815.69);
-console.log(10000, calculateAllowance(SE, TU, PE, 10000), ":", 683.93);
-console.log(12000, calculateAllowance(SE, TU, PE, 12000), ":", 582.59);
-console.log(15000, calculateAllowance(SE, TU, PE, 15000), ":", 520.59);
-console.log(17500, calculateAllowance(SE, TU, PE, 17500), ":", 468.59);
-console.log(20000, calculateAllowance(SE, TU, PE, 20000), ":", 416.59);
-console.log(25000, calculateAllowance(SE, TU, PE, 25000), ":", 312.59);
-console.log(30000, calculateAllowance(SE, TU, PE, 30000), ":", 207.69);
+console.log(0, calculateTable4GIS(SE, TU, PE, 0, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
+console.log(100, calculateTable4GIS(SE, TU, PE, 100, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
+console.log(1000, calculateTable4GIS(SE, TU, PE, 1000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
+console.log(2500, calculateTable4GIS(SE, TU, PE, 2500, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
+console.log(5000, calculateTable4GIS(SE, TU, PE, 5000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
+console.log(10000, calculateTable4GIS(SE, TU, PE, 10000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
+console.log(15000, calculateTable4GIS(SE, TU, PE, 15000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
+console.log(17500, calculateTable4GIS(SE, TU, PE, 17500, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
+console.log(20000, calculateTable4GIS(SE, TU, PE, 20000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
+console.log(25000, calculateTable4GIS(SE, TU, PE, 25000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
+console.log(30000, calculateTable4GIS(SE, TU, PE, 30000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
+console.log(35000, calculateTable4GIS(SE, TU, PE, 35000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
+console.log(40000, calculateTable4GIS(SE, TU, PE, 40000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
