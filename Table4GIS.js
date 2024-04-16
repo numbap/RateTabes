@@ -31,8 +31,8 @@ function calculateTable4GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "20
 
 
   // Step 3: Apply SQF to System Values
-  const QSE = SQF * SE;
-  const QPE = SQF * PE;
+  // const QSE = SQF * SE;
+  // const QPE = SQF * PE;
   const QTU = SQF * TU;
   const QRPE = RPE * SQF;
 
@@ -85,12 +85,12 @@ console.log(0, calculateTable4GIS(SE, TU, PE, 0, YEARS, YEARS, AGE), ":", 1354.6
 console.log(100, calculateTable4GIS(SE, TU, PE, 100, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
 console.log(1000, calculateTable4GIS(SE, TU, PE, 1000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
 console.log(2500, calculateTable4GIS(SE, TU, PE, 2500, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
-console.log(5000, calculateTable4GIS(SE, TU, PE, 5000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
-console.log(10000, calculateTable4GIS(SE, TU, PE, 10000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
-console.log(15000, calculateTable4GIS(SE, TU, PE, 15000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
-console.log(17500, calculateTable4GIS(SE, TU, PE, 17500, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
-console.log(20000, calculateTable4GIS(SE, TU, PE, 20000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
-console.log(25000, calculateTable4GIS(SE, TU, PE, 25000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
-console.log(30000, calculateTable4GIS(SE, TU, PE, 30000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
-console.log(35000, calculateTable4GIS(SE, TU, PE, 35000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
-console.log(40000, calculateTable4GIS(SE, TU, PE, 40000, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
+console.log(5000, calculateTable4GIS(SE, TU, PE, 5000, YEARS, YEARS, AGE), ":", 1344.69, ":", 1416.02);
+console.log(10000, calculateTable4GIS(SE, TU, PE, 10000, YEARS, YEARS, AGE), ":", 1307.93, ":", 1379.26);
+console.log(15000, calculateTable4GIS(SE, TU, PE, 15000, YEARS, YEARS, AGE), ":", 1233.93, ":", 1305.26);
+console.log(17500, calculateTable4GIS(SE, TU, PE, 17500, YEARS, YEARS, AGE), ":", 1183.93, ":", 1253.26);
+console.log(20000, calculateTable4GIS(SE, TU, PE, 20000, YEARS, YEARS, AGE), ":", 1129.93, ":", 1201.26);
+console.log(25000, calculateTable4GIS(SE, TU, PE, 25000, YEARS, YEARS, AGE), ":", 1025.93, ":", 1097.26);
+console.log(30000, calculateTable4GIS(SE, TU, PE, 30000, YEARS, YEARS, AGE), ":", 960.18, ":", 1031.51);
+console.log(35000, calculateTable4GIS(SE, TU, PE, 35000, YEARS, YEARS, AGE), ":", 960.18, ":", 1031.51);
+console.log(40000, calculateTable4GIS(SE, TU, PE, 40000, YEARS, YEARS, AGE), ":", 960.18, ":", 1031.51);
