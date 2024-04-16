@@ -56,8 +56,6 @@ const SE = 594.59; // Example values, replace with actual values
 const TU = 46.76;
 // Pension Equivalent (PE)
 const PE = 713.34;
-// Joint Income (INC)
-const INC = 11000;
 // OAS and International Years
 const YEARS = 40
 // Client age
