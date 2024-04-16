@@ -27,41 +27,24 @@ function calculateTable4GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "20
 
   // Calculate Monthly Joint Income (MJI) and MJI over $4000 (MJI4K)
   const MJI = min0(INC / 12);
-  const MJI4K = min0((INC - 4000) / 24);
+  const MJI4K = roundDown(min0(INC - 4000) / 24, 4);
 
-
-  // Step 3: Apply SQF to System Values
-  // const QSE = SQF * SE;
   // const QPE = SQF * PE;
   const QTU = SQF * TU;
   const QRPE = RPE * SQF;
 
-  // // Calculate 3/4 Monthly Joint Income (MJI3/4)
-  // const MJI34 = min0((3 / 4) * roundDown(MJI, 4));
-
   // Calculate Residual Joint Income (RJI)
   const RJI = min0(MJI - roundUp((4 / 3) * QRPE, 4));
-  const RJIA = RJI / 4
+  const RJIA = roundDown(RJI, 4) / 4
 
   // Calculate Base Summplement (BS)
   const BS = ((SE + FMP - YOAS) * SQF) - RJIA
 
   // Calculate Modified Top-Up (MTU)
-  const MTU = QTU - roundDown(MJI4K, 4)
+  const MTU = min0(QTU - MJI4K / 4)
 
   // Calculate Income-Adjusted Top-Up (IATU)
   const GIS = BS + MTU + FMP
-
-  // let ALW;
-
-  // // Step 7: Calculate Total Allowance (ALW) based on INC
-  // if (INC === 0) {
-  //   ALW = QPE + QSE + QTU;
-  // } else if (MJI <= PRODUCT) {
-  //   ALW = QSE + (QPE - MJI34) + IATU;
-  // } else {
-  //   ALW = QSE - roundDown(RJI, 4) / 4 + IATU;
-  // }
 
   return GIS.toFixed(2);
 }
