@@ -1,1 +1,17 @@
-*node_modules/*
+# Ignore node_modules directory
+node_modules/
+
+# Ignore any compiled files
+*.log
+*.json
+*.lock
+*.env
+*.sqlite
+*.csv
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore npm debug log
+npm-debug.log*
