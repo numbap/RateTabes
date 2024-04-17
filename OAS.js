@@ -2,6 +2,8 @@ const { roundUp, roundDown, min0, monthsBetweenDates } = require("./utils.js");
 
 function calculateOAS(PE, YEARS = 40, AGE = 65, DEFER = 0, DATE = "2024-04-01") {
   
+
+  // Partial pensions introduced in July 1977. Calculator tool only goes back to 2001
   const YBO = (YEARS/40) * PE;
 
   // Adjust bonus75 and deferralFactor based on DATE
@@ -55,3 +57,5 @@ console.log(calculateOAS( PE, YEARS, AGE, 36, DATE));
 console.log(calculateOAS( PE, YEARS, AGE, 48, DATE));
 console.log(calculateOAS( PE, YEARS, AGE, 60, DATE));
 console.log(calculateOAS( PE, YEARS, AGE, 100, DATE));
+
+module.exports = { calculateOAS };

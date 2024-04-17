@@ -1,6 +1,6 @@
 const { roundUp, roundDown, min0 } = require("./utils.js");
 
-function calculateAllowance(SE, TU, PE, INC, IYEARS = 10, DATE = "2024-04-01") {
+function calculateTable4ALW(SE, TU, PE, INC, IYEARS = 10, DATE = "2024-04-01") {
   //////////////////////////////////////////////////////////////////
   // This function is accurate for rates from 04-01-2024 and beyond
   // Cannot handle retroactive rate calculations
@@ -60,18 +60,21 @@ const PE = 713.34;
 // Joint Income (INC)
 const INC = 11000;
 
-const allowance = calculateAllowance(SE, TU, PE, INC);
+
 console.log("=======================================");
-console.log(0, calculateAllowance(SE, TU, PE, 0), ":", 1354.69);
-console.log(100, calculateAllowance(SE, TU, PE, 100), ":", 1348.69);
-console.log(1000, calculateAllowance(SE, TU, PE, 1000), ":", 1294.69);
-console.log(2500, calculateAllowance(SE, TU, PE, 2500), ":", 1198.69);
-console.log(5000, calculateAllowance(SE, TU, PE, 5000), ":", 1032.69);
-console.log(8000, calculateAllowance(SE, TU, PE, 8000), ":", 815.69);
-console.log(10000, calculateAllowance(SE, TU, PE, 10000), ":", 683.93);
-console.log(12000, calculateAllowance(SE, TU, PE, 12000), ":", 582.59);
-console.log(15000, calculateAllowance(SE, TU, PE, 15000), ":", 520.59);
-console.log(17500, calculateAllowance(SE, TU, PE, 17500), ":", 468.59);
-console.log(20000, calculateAllowance(SE, TU, PE, 20000), ":", 416.59);
-console.log(25000, calculateAllowance(SE, TU, PE, 25000), ":", 312.59);
-console.log(30000, calculateAllowance(SE, TU, PE, 30000), ":", 207.69);
+console.log(0, calculateTable4ALW(SE, TU, PE, 0), ":", 1354.69);
+console.log(100, calculateTable4ALW(SE, TU, PE, 100), ":", 1348.69);
+console.log(1000, calculateTable4ALW(SE, TU, PE, 1000), ":", 1294.69);
+console.log(2500, calculateTable4ALW(SE, TU, PE, 2500), ":", 1198.69);
+console.log(5000, calculateTable4ALW(SE, TU, PE, 5000), ":", 1032.69);
+console.log(8000, calculateTable4ALW(SE, TU, PE, 8000), ":", 815.69);
+console.log(10000, calculateTable4ALW(SE, TU, PE, 10000), ":", 683.93);
+console.log(12000, calculateTable4ALW(SE, TU, PE, 12000), ":", 582.59);
+console.log(15000, calculateTable4ALW(SE, TU, PE, 15000), ":", 520.59);
+console.log(17500, calculateTable4ALW(SE, TU, PE, 17500), ":", 468.59);
+console.log(20000, calculateTable4ALW(SE, TU, PE, 20000), ":", 416.59);
+console.log(25000, calculateTable4ALW(SE, TU, PE, 25000), ":", 312.59);
+console.log(30000, calculateTable4ALW(SE, TU, PE, 30000), ":", 207.69);
+
+
+module.exports = { calculateTable4ALW };

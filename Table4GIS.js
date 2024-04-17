@@ -75,3 +75,5 @@ console.log(25000, calculateTable4GIS(SE, TU, PE, 25000, YEARS, YEARS, AGE), ":"
 console.log(30000, calculateTable4GIS(SE, TU, PE, 30000, YEARS, YEARS, AGE), ":", 960.18, ":", 1031.51);
 console.log(35000, calculateTable4GIS(SE, TU, PE, 35000, YEARS, YEARS, AGE), ":", 960.18, ":", 1031.51);
 console.log(40000, calculateTable4GIS(SE, TU, PE, 40000, YEARS, YEARS, AGE), ":", 960.18, ":", 1031.51);
+
+module.exports = { calculateTable4GIS };

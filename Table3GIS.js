@@ -1,6 +1,6 @@
 const { roundUp, roundDown, min0 } = require("./utils.js");
 
-function calculateGIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "2024-04-01") {
+function calculateTable3GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "2024-04-01") {
   //////////////////////////////////////////////////////////////////
   // This function is accurate for rates from 04-01-2024 and beyond
   // Cannot handle retroactive rate calculations
@@ -56,12 +56,14 @@ const AGE = 65
 
 
 console.log("=======================================");
-console.log(0, calculateGIS(SE, TU, PE, 0, YEARS, YEARS, AGE), ":", 1778.81, ":", 1850.14);
-console.log(100, calculateGIS(SE, TU, PE, 100, YEARS, YEARS, AGE), ":", 1778.81, ":", 1850.14);
-console.log(1000, calculateGIS(SE, TU, PE, 1000, YEARS, YEARS, AGE), ":", 1778.81, ":", 1850.14);
-console.log(5000, calculateGIS(SE, TU, PE, 5000, YEARS, YEARS, AGE), ":", 1768.81, ":", 1840.14);
-console.log(10000, calculateGIS(SE, TU, PE, 10000, YEARS, YEARS, AGE), ":", 1687.81, ":", 1759.14);
-console.log(20000, calculateGIS(SE, TU, PE, 20000, YEARS, YEARS, AGE), ":", 1376.77, ":", 1448.10);
-console.log(30000, calculateGIS(SE, TU, PE, 30000, YEARS, YEARS, AGE), ":", 1167.77, ":", 1239.10);
-console.log(40000, calculateGIS(SE, TU, PE, 40000, YEARS, YEARS, AGE), ":", 959.77, ":", 1031.10);
-console.log(50000, calculateGIS(SE, TU, PE, 50000, YEARS, YEARS, AGE), ":", 751.77, ":", 823.10);
+console.log(0, calculateTable3GIS(SE, TU, PE, 0, YEARS, YEARS, AGE), ":", 1778.81, ":", 1850.14);
+console.log(100, calculateTable3GIS(SE, TU, PE, 100, YEARS, YEARS, AGE), ":", 1778.81, ":", 1850.14);
+console.log(1000, calculateTable3GIS(SE, TU, PE, 1000, YEARS, YEARS, AGE), ":", 1778.81, ":", 1850.14);
+console.log(5000, calculateTable3GIS(SE, TU, PE, 5000, YEARS, YEARS, AGE), ":", 1768.81, ":", 1840.14);
+console.log(10000, calculateTable3GIS(SE, TU, PE, 10000, YEARS, YEARS, AGE), ":", 1687.81, ":", 1759.14);
+console.log(20000, calculateTable3GIS(SE, TU, PE, 20000, YEARS, YEARS, AGE), ":", 1376.77, ":", 1448.10);
+console.log(30000, calculateTable3GIS(SE, TU, PE, 30000, YEARS, YEARS, AGE), ":", 1167.77, ":", 1239.10);
+console.log(40000, calculateTable3GIS(SE, TU, PE, 40000, YEARS, YEARS, AGE), ":", 959.77, ":", 1031.10);
+console.log(50000, calculateTable3GIS(SE, TU, PE, 50000, YEARS, YEARS, AGE), ":", 751.77, ":", 823.10);
+
+module.exports = { calculateTable3GIS };
