@@ -1,6 +1,6 @@
 const fs = require('fs');
 const csv = require('csv-parser');
-const calculateTable1GIS = require('./Table1GIS')
+const {calculateTable1GIS} = require('./Table1GIS.js')
 
 // Function to process each row
 function processRow(row) {
@@ -20,7 +20,7 @@ let rows = [];
 function loopCSV(filePath, headers, callback, message) {
     // Read the CSV file and process each row
     fs.createReadStream(filePath)
-    .pipe(csv({ skipLines: 2, headers })) // Skip the first 2 rows
+    .pipe(csv({ skipLines: 3, headers })) // Skip the first 2 rows
     .on('data', (row) => {
         callback(row);
     })
@@ -31,14 +31,30 @@ function loopCSV(filePath, headers, callback, message) {
 
 // Test Table 1 for all income brackets according to specific criteria
 // Output responses to a text file
-function table1GISTest(filePath, se, tu, pe, years, iyears, date){
+function table1GISTest(filePath, se, tu, pe, years, iyears, date, verbose, outputFile){
     const columnHeaders = ["income_low","income_high", "GIS", "OASGIS65", "OASGIS75"]
     const message = "Table 1 Test Complete"
-    const calculate = (inc, row) => {
-        const calculated = calculateTable1GIS(se, tu, pe, inc, years, iyears, date)
-        console.log({calculated, ddddd})
+    const calculate = (row) => {
+        const date = new Date();
+        const calculated = calculateTable1GIS(se, tu, pe, row.income_low, years, iyears, "2024-04-01")
+        const output = parseFloat(calculated) === parseFloat(row.OASGIS65) ? ["T1 ", row.income_low, "passed", date] : {calculated, expected: row.OASGIS65}
+        if(!(parseFloat(calculated) === parseFloat(row.OASGIS65) && verbose)){
+            console.log(output)
+            appendLineToFile(outputFile, JSON.stringify(output))
+        }
     }
     loopCSV(filePath, columnHeaders, calculate, message)
 }
 
-table1GISTest(filePathT1, 900.43, 165.04, 713.34, 40, 40, "2024-01-01")
+
+function appendLineToFile(filePath, line) {
+    fs.appendFile(filePath, `${line}\n`, (err) => {
+      if (err) {
+        console.error(`Failed to append line to file: ${err}`);
+        return;
+      }
+      console.log('Line appended to file successfully.');
+    });
+  }
+
+table1GISTest(filePathT1, 900.43, 165.04, 713.34, 40, 40, "2024-01-01", false, "./output.txt")
