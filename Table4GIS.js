@@ -38,7 +38,7 @@ function calculateTable4GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "20
   const RJIA = roundDown(RJI, 4) / 4
 
   // Calculate Base Summplement (BS)
-  const BS = ((SE + FMP - YOAS) * SQF) - RJIA
+  const BS = ((SE + PE - YOAS) * SQF) - RJIA
 
   // Calculate Modified Top-Up (MTU)
   const MTU = min0(QTU - MJI4K / 4)

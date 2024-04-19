@@ -101,7 +101,25 @@ function table3GISTest(filePath, se, tu, pe, years, iyears, age, date, verbose, 
   loopCSV(filePath, columnHeaders, calculate, "Table 3 testing complete")
 }
 
-// Test Table 3 for all income brackets according to specific criteria
+// Test Table 4 for all income brackets according to specific criteria
+// Output responses to a text file
+function table4GISTest(filePath, se, tu, pe, years, iyears, age, date, verbose, outputFile){
+  const columnHeaders = ["income_low","income_high", "GIS", "OASGIS65", "OASGIS75"]
+  const startMessage = `Table 4 Test Start - ${age}`
+  appendLineToFile(outputFile, startMessage)
+  const calculate = (row) => {
+      const date = new Date();
+      const calculated = calculateTable4GIS(se, tu, pe, row.income_low, years, iyears, age, "2024-04-01", true)
+      const output = parseFloat(calculated) === parseFloat(row.OASGIS65) ? ["T4 ", row.income_low, "passed", date] : {calculated, expected: row.OASGIS65}
+      if(!(parseFloat(calculated) === parseFloat(age === 65? row.OASGIS65 : row.OASGIS75) && !verbose)){
+          console.log(output)
+          appendLineToFile(outputFile, JSON.stringify(output))
+      }
+  }
+  loopCSV(filePath, columnHeaders, calculate, "Table 4 testing complete")
+}
+
+// Test OAS scenarios excluding ISSA
 // Output responses to a text file
 function table4GISTest(filePath, se, tu, pe, years, iyears, age, date, verbose, outputFile){
   const columnHeaders = ["income_low","income_high", "GIS", "OASGIS65", "OASGIS75"]
@@ -120,23 +138,23 @@ function table4GISTest(filePath, se, tu, pe, years, iyears, age, date, verbose, 
 }
 
 // Test Table 1 for age 65
-table1GISTest(filePathT1, 900.43, 165.04, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output1_65.txt")
+// table1GISTest(filePathT1, 900.43, 165.04, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output1_65.txt") // Passed
 // Test Table 1 for age 75
-table1GISTest(filePathT1, 900.43, 165.04, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output1_75.txt")
+// table1GISTest(filePathT1, 900.43, 165.04, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output1_75.txt") // Passed
 
 // Test Table 2 for age 65
-table2GISTest(filePathT2, 594.59, 46.76, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output2_65.txt")
+// table2GISTest(filePathT2, 594.59, 46.76, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output2_65.txt") // Passed
 // Test Table 2 for age 75
-table2GISTest(filePathT2, 594.59, 46.76, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output2_75.txt")
+// table2GISTest(filePathT2, 594.59, 46.76, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output2_75.txt") // Passed
 
-// Test Table 3 for age 65
-table3GISTest(filePathT3, 594.59, 46.76, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output3_65.txt")
-// Test Table 3 for age 75
-table3GISTest(filePathT3, 594.59, 46.76, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output3_75.txt")
+// // Test Table 3 for age 65
+// table3GISTest(filePathT3, 594.59, 46.76, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output3_65.txt")
+// // Test Table 3 for age 75
+// table3GISTest(filePathT3, 594.59, 46.76, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output3_75.txt")
 
-// Test Table 3 for age 65
-table4GISTest(filePathT4, 594.59, 46.76, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output4_65.txt")
-// Test Table 3 for age 75
-table4GISTest(filePathT4, 594.59, 46.76, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output4_75.txt")
+// // Test Table 4 for age 65
+table4GISTest(filePathT4, 594.59, 46.76, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output4_65.txt") // Breaks down at 958.93
+// // Test Table 4 for age 75
+table4GISTest(filePathT4, 594.59, 46.76, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output4_75.txt") // Breaks down at 958.93
 
 // Should only verbose on incorrect answers

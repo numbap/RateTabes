@@ -27,7 +27,7 @@ function calculateTable2GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "20
   const MBI4K = Math.floor(min0(INC - 4000) / 48);
 
   // Calculate Base Summplement (BS)
-  const BS = min0(((SE + FMP - YOAS) * SQF) - MBIA)
+  const BS = min0(((SE + PE - YOAS) * SQF) - MBIA)
 
   // Calculate Modified Top-Up (MTU)
   const MTU = min0((TU * SQF) - MBI4K)

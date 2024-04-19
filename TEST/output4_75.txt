@@ -1,883 +1,881 @@
 Table 4 Test Start - 75
-Table 4 Test Start - 75
-Table 4 Test Start - 75
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1425.02","expected":"1353.69"}
-{"calculated":"1425.02","expected":"1353.69"}
-{"calculated":"1424.02","expected":"1352.69"}
-{"calculated":"1424.02","expected":"1352.69"}
-{"calculated":"1424.02","expected":"1352.69"}
-{"calculated":"1423.02","expected":"1351.69"}
-{"calculated":"1423.02","expected":"1351.69"}
-{"calculated":"1423.02","expected":"1351.69"}
-{"calculated":"1422.02","expected":"1350.69"}
-{"calculated":"1422.02","expected":"1350.69"}
-{"calculated":"1422.02","expected":"1350.69"}
-{"calculated":"1421.02","expected":"1349.69"}
-{"calculated":"1421.02","expected":"1349.69"}
-{"calculated":"1421.02","expected":"1349.69"}
-{"calculated":"1420.02","expected":"1348.69"}
-{"calculated":"1420.02","expected":"1348.69"}
-{"calculated":"1420.02","expected":"1348.69"}
-{"calculated":"1419.02","expected":"1347.69"}
-{"calculated":"1419.02","expected":"1347.69"}
-{"calculated":"1419.02","expected":"1347.69"}
-{"calculated":"1418.02","expected":"1346.69"}
-{"calculated":"1418.02","expected":"1346.69"}
-{"calculated":"1418.02","expected":"1346.69"}
-{"calculated":"1417.02","expected":"1345.69"}
-{"calculated":"1417.02","expected":"1345.69"}
-{"calculated":"1417.02","expected":"1345.69"}
-{"calculated":"1416.02","expected":"1344.69"}
-{"calculated":"1416.02","expected":"1344.69"}
-{"calculated":"1416.02","expected":"1344.69"}
-{"calculated":"1415.02","expected":"1343.69"}
-{"calculated":"1415.02","expected":"1343.69"}
-{"calculated":"1415.02","expected":"1343.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1414.02","expected":"1342.69"}
-{"calculated":"1414.02","expected":"1342.69"}
-{"calculated":"1413.02","expected":"1341.69"}
-{"calculated":"1413.02","expected":"1341.69"}
-{"calculated":"1413.02","expected":"1341.69"}
-{"calculated":"1412.02","expected":"1340.69"}
-{"calculated":"1412.02","expected":"1340.69"}
-{"calculated":"1412.02","expected":"1340.69"}
-{"calculated":"1411.02","expected":"1339.69"}
-{"calculated":"1411.02","expected":"1339.69"}
-{"calculated":"1411.02","expected":"1339.69"}
-{"calculated":"1410.02","expected":"1338.69"}
-{"calculated":"1410.02","expected":"1338.69"}
-{"calculated":"1410.02","expected":"1338.69"}
-{"calculated":"1409.02","expected":"1337.69"}
-{"calculated":"1409.02","expected":"1337.69"}
-{"calculated":"1409.02","expected":"1337.69"}
-{"calculated":"1408.02","expected":"1336.69"}
-{"calculated":"1408.02","expected":"1336.69"}
-{"calculated":"1414.02","expected":"1342.69"}
-{"calculated":"1407.02","expected":"1335.69"}
-{"calculated":"1407.02","expected":"1335.69"}
-{"calculated":"1407.02","expected":"1335.69"}
-{"calculated":"1406.02","expected":"1334.69"}
-{"calculated":"1406.02","expected":"1334.69"}
-{"calculated":"1406.02","expected":"1334.69"}
-{"calculated":"1405.02","expected":"1333.69"}
-{"calculated":"1405.02","expected":"1333.69"}
-{"calculated":"1405.02","expected":"1333.69"}
-{"calculated":"1404.02","expected":"1332.69"}
-{"calculated":"1404.02","expected":"1332.69"}
-{"calculated":"1404.02","expected":"1332.69"}
-{"calculated":"1403.02","expected":"1331.69"}
-{"calculated":"1403.02","expected":"1331.69"}
-{"calculated":"1403.02","expected":"1331.69"}
-{"calculated":"1402.02","expected":"1330.69"}
-{"calculated":"1402.02","expected":"1330.69"}
-{"calculated":"1402.02","expected":"1330.69"}
-{"calculated":"1401.02","expected":"1329.69"}
-{"calculated":"1401.02","expected":"1329.69"}
-{"calculated":"1401.02","expected":"1329.69"}
-{"calculated":"1400.02","expected":"1328.69"}
-{"calculated":"1400.02","expected":"1328.69"}
-{"calculated":"1400.02","expected":"1328.69"}
-{"calculated":"1399.02","expected":"1327.69"}
-{"calculated":"1399.02","expected":"1327.69"}
-{"calculated":"1399.02","expected":"1327.69"}
-{"calculated":"1398.02","expected":"1326.69"}
-{"calculated":"1398.02","expected":"1326.69"}
-{"calculated":"1425.02","expected":"1353.69"}
-{"calculated":"1397.02","expected":"1325.69"}
-{"calculated":"1397.02","expected":"1325.69"}
-{"calculated":"1397.02","expected":"1325.69"}
-{"calculated":"1396.02","expected":"1324.69"}
-{"calculated":"1426.02","expected":"1354.69"}
-{"calculated":"1396.02","expected":"1324.69"}
-{"calculated":"1395.02","expected":"1323.69"}
-{"calculated":"1395.02","expected":"1323.69"}
-{"calculated":"1395.02","expected":"1323.69"}
-{"calculated":"1394.02","expected":"1322.69"}
-{"calculated":"1394.02","expected":"1322.69"}
-{"calculated":"1394.02","expected":"1322.69"}
-{"calculated":"1393.02","expected":"1321.69"}
-{"calculated":"1393.02","expected":"1321.69"}
-{"calculated":"1393.02","expected":"1321.69"}
-{"calculated":"1392.02","expected":"1320.69"}
-{"calculated":"1392.02","expected":"1320.69"}
-{"calculated":"1392.02","expected":"1320.69"}
-{"calculated":"1391.02","expected":"1319.69"}
-{"calculated":"1391.02","expected":"1319.69"}
-{"calculated":"1391.02","expected":"1319.69"}
-{"calculated":"1390.02","expected":"1318.69"}
-{"calculated":"1390.02","expected":"1318.69"}
-{"calculated":"1389.02","expected":"1317.69"}
-{"calculated":"1390.02","expected":"1318.69"}
-{"calculated":"1389.02","expected":"1317.69"}
-{"calculated":"1388.02","expected":"1316.69"}
-{"calculated":"1388.02","expected":"1316.69"}
-{"calculated":"1388.02","expected":"1316.69"}
-{"calculated":"1387.02","expected":"1315.69"}
-{"calculated":"1387.02","expected":"1315.69"}
-{"calculated":"1387.02","expected":"1315.69"}
-{"calculated":"1386.02","expected":"1314.69"}
-{"calculated":"1386.02","expected":"1314.69"}
-{"calculated":"1389.02","expected":"1317.69"}
-{"calculated":"1408.02","expected":"1336.69"}
-{"calculated":"1385.02","expected":"1313.69"}
-{"calculated":"1385.02","expected":"1313.69"}
-{"calculated":"1385.02","expected":"1313.69"}
-{"calculated":"1384.02","expected":"1312.69"}
-{"calculated":"1383.02","expected":"1311.69"}
-{"calculated":"1383.02","expected":"1311.69"}
-{"calculated":"1383.02","expected":"1311.69"}
-{"calculated":"1384.02","expected":"1312.69"}
-{"calculated":"1384.02","expected":"1312.69"}
-{"calculated":"1382.02","expected":"1310.69"}
-{"calculated":"1381.02","expected":"1309.69"}
-{"calculated":"1382.02","expected":"1310.69"}
-{"calculated":"1382.02","expected":"1310.69"}
-{"calculated":"1381.02","expected":"1309.69"}
-{"calculated":"1381.02","expected":"1309.69"}
-{"calculated":"1380.02","expected":"1308.69"}
-{"calculated":"1380.02","expected":"1308.69"}
-{"calculated":"1380.02","expected":"1308.69"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1396.02","expected":"1324.69"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1398.02","expected":"1326.69"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1378.26","expected":"1306.93"}
-{"calculated":"1377.26","expected":"1305.93"}
-{"calculated":"1376.26","expected":"1304.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1375.26","expected":"1303.93"}
-{"calculated":"1374.26","expected":"1302.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1372.26","expected":"1300.93"}
-{"calculated":"1371.26","expected":"1299.93"}
-{"calculated":"1370.26","expected":"1298.93"}
-{"calculated":"1369.26","expected":"1297.93"}
-{"calculated":"1368.26","expected":"1296.93"}
-{"calculated":"1367.26","expected":"1295.93"}
-{"calculated":"1365.26","expected":"1293.93"}
-{"calculated":"1366.26","expected":"1294.93"}
-{"calculated":"1364.26","expected":"1292.93"}
-{"calculated":"1362.26","expected":"1290.93"}
-{"calculated":"1363.26","expected":"1291.93"}
-{"calculated":"1361.26","expected":"1289.93"}
-{"calculated":"1360.26","expected":"1288.93"}
-{"calculated":"1359.26","expected":"1287.93"}
-{"calculated":"1357.26","expected":"1285.93"}
-{"calculated":"1358.26","expected":"1286.93"}
-{"calculated":"1356.26","expected":"1284.93"}
-{"calculated":"1355.26","expected":"1283.93"}
-{"calculated":"1354.26","expected":"1282.93"}
-{"calculated":"1353.26","expected":"1281.93"}
-{"calculated":"1352.26","expected":"1280.93"}
-{"calculated":"1351.26","expected":"1279.93"}
-{"calculated":"1350.26","expected":"1278.93"}
-{"calculated":"1349.26","expected":"1277.93"}
-{"calculated":"1348.26","expected":"1276.93"}
-{"calculated":"1347.26","expected":"1275.93"}
-{"calculated":"1346.26","expected":"1274.93"}
-{"calculated":"1345.26","expected":"1273.93"}
-{"calculated":"1344.26","expected":"1272.93"}
-{"calculated":"1343.26","expected":"1271.93"}
-{"calculated":"1342.26","expected":"1270.93"}
-{"calculated":"1341.26","expected":"1269.93"}
-{"calculated":"1340.26","expected":"1268.93"}
-{"calculated":"1339.26","expected":"1267.93"}
-{"calculated":"1338.26","expected":"1266.93"}
-{"calculated":"1337.26","expected":"1265.93"}
-{"calculated":"1336.26","expected":"1264.93"}
-{"calculated":"1335.26","expected":"1263.93"}
-{"calculated":"1334.26","expected":"1262.93"}
-{"calculated":"1333.26","expected":"1261.93"}
-{"calculated":"1332.26","expected":"1260.93"}
-{"calculated":"1331.26","expected":"1259.93"}
-{"calculated":"1330.26","expected":"1258.93"}
-{"calculated":"1329.26","expected":"1257.93"}
-{"calculated":"1328.26","expected":"1256.93"}
-{"calculated":"1327.26","expected":"1255.93"}
-{"calculated":"1326.26","expected":"1254.93"}
-{"calculated":"1324.26","expected":"1252.93"}
-{"calculated":"1323.26","expected":"1251.93"}
-{"calculated":"1322.26","expected":"1250.93"}
-{"calculated":"1321.26","expected":"1249.93"}
-{"calculated":"1325.26","expected":"1253.93"}
-{"calculated":"1320.26","expected":"1248.93"}
-{"calculated":"1319.26","expected":"1247.93"}
-{"calculated":"1316.26","expected":"1244.93"}
-{"calculated":"1317.26","expected":"1245.93"}
-{"calculated":"1315.26","expected":"1243.93"}
-{"calculated":"1314.26","expected":"1242.93"}
-{"calculated":"1313.26","expected":"1241.93"}
-{"calculated":"1312.26","expected":"1240.93"}
-{"calculated":"1311.26","expected":"1239.93"}
-{"calculated":"1310.26","expected":"1238.93"}
-{"calculated":"1309.26","expected":"1237.93"}
-{"calculated":"1308.26","expected":"1236.93"}
-{"calculated":"1307.26","expected":"1235.93"}
-{"calculated":"1305.26","expected":"1233.93"}
-{"calculated":"1306.26","expected":"1234.93"}
-{"calculated":"1304.26","expected":"1232.93"}
-{"calculated":"1318.26","expected":"1246.93"}
-{"calculated":"1303.26","expected":"1231.93"}
-{"calculated":"1302.26","expected":"1230.93"}
-{"calculated":"1301.26","expected":"1229.93"}
-{"calculated":"1300.26","expected":"1228.93"}
-{"calculated":"1299.26","expected":"1227.93"}
-{"calculated":"1298.26","expected":"1226.93"}
-{"calculated":"1297.26","expected":"1225.93"}
-{"calculated":"1373.26","expected":"1301.93"}
-{"calculated":"1295.26","expected":"1223.93"}
-{"calculated":"1294.26","expected":"1222.93"}
-{"calculated":"1293.26","expected":"1221.93"}
-{"calculated":"1379.26","expected":"1307.93"}
-{"calculated":"1291.26","expected":"1219.93"}
-{"calculated":"1290.26","expected":"1218.93"}
-{"calculated":"1289.26","expected":"1217.93"}
-{"calculated":"1288.26","expected":"1216.93"}
-{"calculated":"1296.26","expected":"1224.93"}
-{"calculated":"1286.26","expected":"1214.93"}
-{"calculated":"1284.26","expected":"1212.93"}
-{"calculated":"1283.26","expected":"1211.93"}
-{"calculated":"1282.26","expected":"1210.93"}
-{"calculated":"1292.26","expected":"1220.93"}
-{"calculated":"1281.26","expected":"1209.93"}
-{"calculated":"1280.26","expected":"1208.93"}
-{"calculated":"1279.26","expected":"1207.93"}
-{"calculated":"1278.26","expected":"1206.93"}
-{"calculated":"1277.26","expected":"1205.93"}
-{"calculated":"1276.26","expected":"1204.93"}
-{"calculated":"1275.26","expected":"1203.93"}
-{"calculated":"1274.26","expected":"1202.93"}
-{"calculated":"1273.26","expected":"1201.93"}
-{"calculated":"1271.26","expected":"1199.93"}
-{"calculated":"1272.26","expected":"1200.93"}
-{"calculated":"1270.26","expected":"1198.93"}
-{"calculated":"1269.26","expected":"1197.93"}
-{"calculated":"1267.26","expected":"1195.93"}
-{"calculated":"1268.26","expected":"1196.93"}
-{"calculated":"1265.26","expected":"1193.93"}
-{"calculated":"1266.26","expected":"1194.93"}
-{"calculated":"1264.26","expected":"1192.93"}
-{"calculated":"1263.26","expected":"1191.93"}
-{"calculated":"1262.26","expected":"1190.93"}
-{"calculated":"1260.26","expected":"1188.93"}
-{"calculated":"1261.26","expected":"1189.93"}
-{"calculated":"1259.26","expected":"1187.93"}
-{"calculated":"1258.26","expected":"1186.93"}
-{"calculated":"1257.26","expected":"1185.93"}
-{"calculated":"1256.26","expected":"1184.93"}
-{"calculated":"1255.26","expected":"1183.93"}
-{"calculated":"1254.26","expected":"1182.93"}
-{"calculated":"1253.26","expected":"1181.93"}
-{"calculated":"1252.26","expected":"1180.93"}
-{"calculated":"1251.26","expected":"1179.93"}
-{"calculated":"1250.26","expected":"1178.93"}
-{"calculated":"1249.26","expected":"1177.93"}
-{"calculated":"1248.26","expected":"1176.93"}
-{"calculated":"1247.26","expected":"1175.93"}
-{"calculated":"1246.26","expected":"1174.93"}
-{"calculated":"1245.26","expected":"1173.93"}
-{"calculated":"1244.26","expected":"1172.93"}
-{"calculated":"1243.26","expected":"1171.93"}
-{"calculated":"1242.26","expected":"1170.93"}
-{"calculated":"1241.26","expected":"1169.93"}
-{"calculated":"1240.26","expected":"1168.93"}
-{"calculated":"1239.26","expected":"1167.93"}
-{"calculated":"1238.26","expected":"1166.93"}
-{"calculated":"1237.26","expected":"1165.93"}
-{"calculated":"1236.26","expected":"1164.93"}
-{"calculated":"1235.26","expected":"1163.93"}
-{"calculated":"1234.26","expected":"1162.93"}
-{"calculated":"1233.26","expected":"1161.93"}
-{"calculated":"1232.26","expected":"1160.93"}
-{"calculated":"1231.26","expected":"1159.93"}
-{"calculated":"1230.26","expected":"1158.93"}
-{"calculated":"1229.26","expected":"1157.93"}
-{"calculated":"1228.26","expected":"1156.93"}
-{"calculated":"1227.26","expected":"1155.93"}
-{"calculated":"1226.26","expected":"1154.93"}
-{"calculated":"1225.26","expected":"1153.93"}
-{"calculated":"1224.26","expected":"1152.93"}
-{"calculated":"1223.26","expected":"1151.93"}
-{"calculated":"1222.26","expected":"1150.93"}
-{"calculated":"1221.26","expected":"1149.93"}
-{"calculated":"1220.26","expected":"1148.93"}
-{"calculated":"1219.26","expected":"1147.93"}
-{"calculated":"1218.26","expected":"1146.93"}
-{"calculated":"1217.26","expected":"1145.93"}
-{"calculated":"1216.26","expected":"1144.93"}
-{"calculated":"1215.26","expected":"1143.93"}
-{"calculated":"1214.26","expected":"1142.93"}
-{"calculated":"1213.26","expected":"1141.93"}
-{"calculated":"1212.26","expected":"1140.93"}
-{"calculated":"1211.26","expected":"1139.93"}
-{"calculated":"1210.26","expected":"1138.93"}
-{"calculated":"1209.26","expected":"1137.93"}
-{"calculated":"1208.26","expected":"1136.93"}
-{"calculated":"1207.26","expected":"1135.93"}
-{"calculated":"1206.26","expected":"1134.93"}
-{"calculated":"1205.26","expected":"1133.93"}
-{"calculated":"1204.26","expected":"1132.93"}
-{"calculated":"1203.26","expected":"1131.93"}
-{"calculated":"1202.26","expected":"1130.93"}
-{"calculated":"1201.26","expected":"1129.93"}
-{"calculated":"1200.26","expected":"1128.93"}
-{"calculated":"1197.26","expected":"1125.93"}
-{"calculated":"1199.26","expected":"1127.93"}
-{"calculated":"1198.26","expected":"1126.93"}
-{"calculated":"1196.26","expected":"1124.93"}
-{"calculated":"1194.26","expected":"1122.93"}
-{"calculated":"1195.26","expected":"1123.93"}
-{"calculated":"1193.26","expected":"1121.93"}
-{"calculated":"1191.26","expected":"1119.93"}
-{"calculated":"1192.26","expected":"1120.93"}
-{"calculated":"1190.26","expected":"1118.93"}
-{"calculated":"1189.26","expected":"1117.93"}
-{"calculated":"1187.26","expected":"1115.93"}
-{"calculated":"1188.26","expected":"1116.93"}
-{"calculated":"1186.26","expected":"1114.93"}
-{"calculated":"1185.26","expected":"1113.93"}
-{"calculated":"1183.26","expected":"1111.93"}
-{"calculated":"1184.26","expected":"1112.93"}
-{"calculated":"1182.26","expected":"1110.93"}
-{"calculated":"1181.26","expected":"1109.93"}
-{"calculated":"1180.26","expected":"1108.93"}
-{"calculated":"1179.26","expected":"1107.93"}
-{"calculated":"1178.26","expected":"1106.93"}
-{"calculated":"1177.26","expected":"1105.93"}
-{"calculated":"1176.26","expected":"1104.93"}
-{"calculated":"1175.26","expected":"1103.93"}
-{"calculated":"1174.26","expected":"1102.93"}
-{"calculated":"1173.26","expected":"1101.93"}
-{"calculated":"1171.26","expected":"1099.93"}
-{"calculated":"1170.26","expected":"1098.93"}
-{"calculated":"1169.26","expected":"1097.93"}
-{"calculated":"1168.26","expected":"1096.93"}
-{"calculated":"1167.26","expected":"1095.93"}
-{"calculated":"1172.26","expected":"1100.93"}
-{"calculated":"1166.26","expected":"1094.93"}
-{"calculated":"1164.26","expected":"1092.93"}
-{"calculated":"1165.26","expected":"1093.93"}
-{"calculated":"1163.26","expected":"1091.93"}
-{"calculated":"1162.26","expected":"1090.93"}
-{"calculated":"1161.26","expected":"1089.93"}
-{"calculated":"1160.26","expected":"1088.93"}
-{"calculated":"1158.26","expected":"1086.93"}
-{"calculated":"1159.26","expected":"1087.93"}
-{"calculated":"1157.26","expected":"1085.93"}
-{"calculated":"1156.26","expected":"1084.93"}
-{"calculated":"1155.26","expected":"1083.93"}
-{"calculated":"1153.26","expected":"1081.93"}
-{"calculated":"1152.26","expected":"1080.93"}
-{"calculated":"1154.26","expected":"1082.93"}
-{"calculated":"1151.26","expected":"1079.93"}
-{"calculated":"1150.26","expected":"1078.93"}
-{"calculated":"1149.26","expected":"1077.93"}
-{"calculated":"1148.26","expected":"1076.93"}
-{"calculated":"1147.26","expected":"1075.93"}
-{"calculated":"1146.26","expected":"1074.93"}
-{"calculated":"1145.26","expected":"1073.93"}
-{"calculated":"1141.26","expected":"1069.93"}
-{"calculated":"1142.26","expected":"1070.93"}
-{"calculated":"1144.26","expected":"1072.93"}
-{"calculated":"1143.26","expected":"1071.93"}
-{"calculated":"1140.26","expected":"1068.93"}
-{"calculated":"1139.26","expected":"1067.93"}
-{"calculated":"1137.26","expected":"1065.93"}
-{"calculated":"1138.26","expected":"1066.93"}
-{"calculated":"1135.26","expected":"1063.93"}
-{"calculated":"1136.26","expected":"1064.93"}
-{"calculated":"1134.26","expected":"1062.93"}
-{"calculated":"1133.26","expected":"1061.93"}
-{"calculated":"1132.26","expected":"1060.93"}
-{"calculated":"1131.26","expected":"1059.93"}
-{"calculated":"1130.26","expected":"1058.93"}
-{"calculated":"1129.26","expected":"1057.93"}
-{"calculated":"1127.26","expected":"1055.93"}
-{"calculated":"1128.26","expected":"1056.93"}
-{"calculated":"1126.26","expected":"1054.93"}
-{"calculated":"1124.26","expected":"1052.93"}
-{"calculated":"1123.26","expected":"1051.93"}
-{"calculated":"1122.26","expected":"1050.93"}
-{"calculated":"1121.26","expected":"1049.93"}
-{"calculated":"1125.26","expected":"1053.93"}
-{"calculated":"1120.26","expected":"1048.93"}
-{"calculated":"1119.26","expected":"1047.93"}
-{"calculated":"1118.26","expected":"1046.93"}
-{"calculated":"1116.26","expected":"1044.93"}
-{"calculated":"1117.26","expected":"1045.93"}
-{"calculated":"1115.26","expected":"1043.93"}
-{"calculated":"1114.26","expected":"1042.93"}
-{"calculated":"1113.26","expected":"1041.93"}
-{"calculated":"1112.26","expected":"1040.93"}
-{"calculated":"1111.26","expected":"1039.93"}
-{"calculated":"1110.26","expected":"1038.93"}
-{"calculated":"1109.26","expected":"1037.93"}
-{"calculated":"1108.26","expected":"1036.93"}
-{"calculated":"1285.26","expected":"1213.93"}
-{"calculated":"1287.26","expected":"1215.93"}
-{"calculated":"1386.02","expected":"1314.69"}
-{"calculated":"1107.26","expected":"1035.93"}
-{"calculated":"1103.26","expected":"1031.93"}
-{"calculated":"1102.26","expected":"1030.93"}
-{"calculated":"1101.26","expected":"1029.93"}
-{"calculated":"1100.26","expected":"1028.93"}
-{"calculated":"1097.26","expected":"1025.93"}
-{"calculated":"1099.26","expected":"1027.93"}
-{"calculated":"1098.26","expected":"1026.93"}
-{"calculated":"1096.26","expected":"1024.93"}
-{"calculated":"1095.26","expected":"1023.93"}
-{"calculated":"1093.26","expected":"1021.93"}
-{"calculated":"1094.26","expected":"1022.93"}
-{"calculated":"1092.26","expected":"1020.93"}
-{"calculated":"1091.26","expected":"1019.93"}
-{"calculated":"1089.26","expected":"1017.93"}
-{"calculated":"1090.26","expected":"1018.93"}
-{"calculated":"1088.26","expected":"1016.93"}
-{"calculated":"1087.26","expected":"1015.93"}
-{"calculated":"1086.26","expected":"1014.93"}
-{"calculated":"1085.26","expected":"1013.93"}
-{"calculated":"1084.26","expected":"1012.93"}
-{"calculated":"1083.26","expected":"1011.93"}
-{"calculated":"1082.26","expected":"1010.93"}
-{"calculated":"1081.26","expected":"1009.93"}
-{"calculated":"1080.26","expected":"1008.93"}
-{"calculated":"1079.26","expected":"1007.93"}
-{"calculated":"1078.26","expected":"1006.93"}
-{"calculated":"1077.26","expected":"1005.93"}
-{"calculated":"1076.26","expected":"1004.93"}
-{"calculated":"1075.26","expected":"1003.93"}
-{"calculated":"1074.26","expected":"1002.93"}
-{"calculated":"1104.26","expected":"1032.93"}
-{"calculated":"1106.26","expected":"1034.93"}
-{"calculated":"1071.26","expected":"999.93"}
-{"calculated":"1070.26","expected":"998.93"}
-{"calculated":"1072.26","expected":"1000.93"}
-{"calculated":"1068.26","expected":"996.93"}
-{"calculated":"1067.26","expected":"995.93"}
-{"calculated":"1066.26","expected":"994.93"}
-{"calculated":"1065.26","expected":"993.93"}
-{"calculated":"1069.26","expected":"997.93"}
-{"calculated":"1063.26","expected":"991.93"}
-{"calculated":"1062.26","expected":"990.93"}
-{"calculated":"1061.26","expected":"989.93"}
-{"calculated":"1060.26","expected":"988.93"}
-{"calculated":"1059.26","expected":"987.93"}
-{"calculated":"1058.26","expected":"986.93"}
-{"calculated":"1057.26","expected":"985.93"}
-{"calculated":"1056.26","expected":"984.93"}
-{"calculated":"1055.26","expected":"983.93"}
-{"calculated":"1054.26","expected":"982.93"}
-{"calculated":"1105.26","expected":"1033.93"}
-{"calculated":"1073.26","expected":"1001.93"}
-{"calculated":"1051.26","expected":"979.93"}
-{"calculated":"1050.26","expected":"978.93"}
-{"calculated":"1049.26","expected":"977.93"}
-{"calculated":"1048.26","expected":"976.93"}
-{"calculated":"1047.26","expected":"975.93"}
-{"calculated":"1046.26","expected":"974.93"}
-{"calculated":"1045.26","expected":"973.93"}
-{"calculated":"1044.26","expected":"972.93"}
-{"calculated":"1043.26","expected":"971.93"}
-{"calculated":"1042.26","expected":"970.93"}
-{"calculated":"1041.26","expected":"969.93"}
-{"calculated":"1040.26","expected":"968.93"}
-{"calculated":"1039.26","expected":"967.93"}
-{"calculated":"1038.26","expected":"966.93"}
-{"calculated":"1037.26","expected":"965.93"}
-{"calculated":"1036.26","expected":"964.93"}
-{"calculated":"1035.26","expected":"963.93"}
-{"calculated":"1033.26","expected":"961.93"}
-{"calculated":"1034.26","expected":"962.93"}
-{"calculated":"1032.26","expected":"960.93"}
-{"calculated":"1030.26","expected":"960.18"}
-{"calculated":"1031.26","expected":"960.18"}
-{"calculated":"1029.26","expected":"960.18"}
-{"calculated":"1027.26","expected":"960.18"}
-{"calculated":"1026.26","expected":"960.18"}
-{"calculated":"1025.26","expected":"960.18"}
-{"calculated":"1024.26","expected":"960.18"}
-{"calculated":"1023.26","expected":"960.18"}
-{"calculated":"1028.26","expected":"960.18"}
-{"calculated":"1022.26","expected":"960.18"}
-{"calculated":"1021.26","expected":"960.18"}
-{"calculated":"1020.26","expected":"960.18"}
-{"calculated":"1019.26","expected":"960.18"}
-{"calculated":"1016.26","expected":"960.18"}
-{"calculated":"1017.26","expected":"960.18"}
-{"calculated":"1018.26","expected":"960.18"}
-{"calculated":"1015.26","expected":"960.18"}
-{"calculated":"1014.26","expected":"960.18"}
-{"calculated":"1013.26","expected":"960.18"}
-{"calculated":"1012.26","expected":"960.18"}
-{"calculated":"1011.26","expected":"960.18"}
-{"calculated":"1010.26","expected":"960.18"}
-{"calculated":"1009.26","expected":"960.18"}
-{"calculated":"1008.26","expected":"960.18"}
-{"calculated":"1007.26","expected":"960.18"}
-{"calculated":"1006.26","expected":"960.18"}
-{"calculated":"1005.26","expected":"960.18"}
-{"calculated":"1004.26","expected":"960.18"}
-{"calculated":"1003.26","expected":"960.18"}
-{"calculated":"1001.26","expected":"960.18"}
-{"calculated":"1000.26","expected":"960.18"}
-{"calculated":"1002.26","expected":"960.18"}
-{"calculated":"999.26","expected":"960.18"}
-{"calculated":"998.26","expected":"960.18"}
-{"calculated":"997.26","expected":"960.18"}
-{"calculated":"995.26","expected":"960.18"}
-{"calculated":"996.26","expected":"960.18"}
-{"calculated":"994.26","expected":"960.18"}
-{"calculated":"993.26","expected":"960.18"}
-{"calculated":"991.26","expected":"960.18"}
-{"calculated":"992.26","expected":"960.18"}
-{"calculated":"990.26","expected":"960.18"}
-{"calculated":"989.26","expected":"960.18"}
-{"calculated":"988.26","expected":"960.18"}
-{"calculated":"986.26","expected":"960.18"}
-{"calculated":"987.26","expected":"960.18"}
-{"calculated":"985.26","expected":"960.18"}
-{"calculated":"984.26","expected":"960.18"}
-{"calculated":"982.26","expected":"960.18"}
-{"calculated":"983.26","expected":"960.18"}
-{"calculated":"980.26","expected":"960.18"}
-{"calculated":"981.26","expected":"960.18"}
-{"calculated":"979.26","expected":"960.18"}
-{"calculated":"978.26","expected":"960.18"}
-{"calculated":"977.26","expected":"960.18"}
-{"calculated":"976.26","expected":"960.18"}
-{"calculated":"975.26","expected":"960.18"}
-{"calculated":"974.26","expected":"960.18"}
-{"calculated":"973.26","expected":"960.18"}
-{"calculated":"972.26","expected":"960.18"}
-{"calculated":"971.26","expected":"960.18"}
-{"calculated":"970.26","expected":"960.18"}
-{"calculated":"969.26","expected":"960.18"}
-{"calculated":"968.26","expected":"960.18"}
-{"calculated":"967.26","expected":"960.18"}
-{"calculated":"966.26","expected":"960.18"}
-{"calculated":"965.26","expected":"960.18"}
-{"calculated":"964.26","expected":"960.18"}
-{"calculated":"963.26","expected":"960.18"}
-{"calculated":"962.26","expected":"960.18"}
-{"calculated":"961.26","expected":"960.18"}
-{"calculated":"959.26","expected":"960.18"}
-{"calculated":"960.26","expected":"960.18"}
-{"calculated":"958.26","expected":"960.18"}
-{"calculated":"957.26","expected":"960.18"}
-{"calculated":"956.26","expected":"960.18"}
-{"calculated":"955.26","expected":"960.18"}
-{"calculated":"954.26","expected":"960.18"}
-{"calculated":"953.26","expected":"960.18"}
-{"calculated":"952.26","expected":"960.18"}
-{"calculated":"951.26","expected":"960.18"}
-{"calculated":"950.26","expected":"960.18"}
-{"calculated":"949.26","expected":"960.18"}
-{"calculated":"948.26","expected":"960.18"}
-{"calculated":"947.26","expected":"960.18"}
-{"calculated":"946.26","expected":"960.18"}
-{"calculated":"945.26","expected":"960.18"}
-{"calculated":"944.26","expected":"960.18"}
-{"calculated":"942.26","expected":"960.18"}
-{"calculated":"943.26","expected":"960.18"}
-{"calculated":"941.26","expected":"960.18"}
-{"calculated":"940.26","expected":"960.18"}
-{"calculated":"939.26","expected":"960.18"}
-{"calculated":"938.26","expected":"960.18"}
-{"calculated":"937.26","expected":"960.18"}
-{"calculated":"936.26","expected":"960.18"}
-{"calculated":"935.26","expected":"960.18"}
-{"calculated":"934.26","expected":"960.18"}
-{"calculated":"933.26","expected":"960.18"}
-{"calculated":"932.26","expected":"960.18"}
-{"calculated":"931.26","expected":"960.18"}
-{"calculated":"930.26","expected":"960.18"}
-{"calculated":"929.26","expected":"960.18"}
-{"calculated":"928.26","expected":"960.18"}
-{"calculated":"926.26","expected":"960.18"}
-{"calculated":"927.26","expected":"960.18"}
-{"calculated":"925.26","expected":"960.18"}
-{"calculated":"924.26","expected":"960.18"}
-{"calculated":"922.26","expected":"960.18"}
-{"calculated":"923.26","expected":"960.18"}
-{"calculated":"921.26","expected":"960.18"}
-{"calculated":"920.26","expected":"960.18"}
-{"calculated":"919.26","expected":"960.18"}
-{"calculated":"918.26","expected":"960.18"}
-{"calculated":"917.26","expected":"960.18"}
-{"calculated":"916.26","expected":"960.18"}
-{"calculated":"915.26","expected":"960.18"}
-{"calculated":"914.26","expected":"960.18"}
-{"calculated":"913.26","expected":"960.18"}
-{"calculated":"912.26","expected":"960.18"}
-{"calculated":"911.26","expected":"960.18"}
-{"calculated":"910.26","expected":"960.18"}
-{"calculated":"909.26","expected":"960.18"}
-{"calculated":"908.26","expected":"960.18"}
-{"calculated":"907.26","expected":"960.18"}
-{"calculated":"906.26","expected":"960.18"}
-{"calculated":"905.26","expected":"960.18"}
-{"calculated":"904.26","expected":"960.18"}
-{"calculated":"903.26","expected":"960.18"}
-{"calculated":"1064.26","expected":"992.93"}
-{"calculated":"1052.26","expected":"980.93"}
-{"calculated":"1053.26","expected":"981.93"}
-{"calculated":"902.26","expected":"960.18"}
-{"calculated":"898.26","expected":"960.18"}
-{"calculated":"897.26","expected":"960.18"}
-{"calculated":"896.26","expected":"960.18"}
-{"calculated":"895.26","expected":"960.18"}
-{"calculated":"894.26","expected":"960.18"}
-{"calculated":"893.26","expected":"960.18"}
-{"calculated":"892.26","expected":"960.18"}
-{"calculated":"891.26","expected":"960.18"}
-{"calculated":"889.26","expected":"960.18"}
-{"calculated":"888.26","expected":"960.18"}
-{"calculated":"887.26","expected":"960.18"}
-{"calculated":"886.26","expected":"960.18"}
-{"calculated":"885.26","expected":"960.18"}
-{"calculated":"890.26","expected":"960.18"}
-{"calculated":"884.26","expected":"960.18"}
-{"calculated":"883.26","expected":"960.18"}
-{"calculated":"882.26","expected":"960.18"}
-{"calculated":"881.26","expected":"960.18"}
-{"calculated":"880.26","expected":"960.18"}
-{"calculated":"879.26","expected":"960.18"}
-{"calculated":"878.26","expected":"960.18"}
-{"calculated":"876.26","expected":"960.18"}
-{"calculated":"877.26","expected":"960.18"}
-{"calculated":"875.26","expected":"960.18"}
-{"calculated":"874.26","expected":"960.18"}
-{"calculated":"873.26","expected":"960.18"}
-{"calculated":"872.26","expected":"960.18"}
-{"calculated":"870.26","expected":"960.18"}
-{"calculated":"871.26","expected":"960.18"}
-{"calculated":"869.26","expected":"960.18"}
-{"calculated":"868.26","expected":"960.18"}
-{"calculated":"866.26","expected":"960.18"}
-{"calculated":"867.26","expected":"960.18"}
-{"calculated":"865.26","expected":"960.18"}
-{"calculated":"864.26","expected":"960.18"}
-{"calculated":"862.26","expected":"960.18"}
-{"calculated":"863.26","expected":"960.18"}
-{"calculated":"861.26","expected":"960.18"}
-{"calculated":"860.26","expected":"960.18"}
-{"calculated":"859.26","expected":"960.18"}
-{"calculated":"857.26","expected":"960.18"}
-{"calculated":"901.26","expected":"960.18"}
-{"calculated":"858.26","expected":"960.18"}
-{"calculated":"856.26","expected":"960.18"}
-{"calculated":"855.26","expected":"960.18"}
-{"calculated":"854.26","expected":"960.18"}
-{"calculated":"853.26","expected":"960.18"}
-{"calculated":"852.26","expected":"960.18"}
-{"calculated":"851.26","expected":"960.18"}
-{"calculated":"850.26","expected":"960.18"}
-{"calculated":"849.26","expected":"960.18"}
-{"calculated":"848.26","expected":"960.18"}
-{"calculated":"847.26","expected":"960.18"}
-{"calculated":"846.26","expected":"960.18"}
-{"calculated":"845.26","expected":"960.18"}
-{"calculated":"844.26","expected":"960.18"}
-{"calculated":"843.26","expected":"960.18"}
-{"calculated":"842.26","expected":"960.18"}
-{"calculated":"841.26","expected":"960.18"}
-{"calculated":"840.26","expected":"960.18"}
-{"calculated":"839.26","expected":"960.18"}
-{"calculated":"838.26","expected":"960.18"}
-{"calculated":"837.26","expected":"960.18"}
-{"calculated":"836.26","expected":"960.18"}
-{"calculated":"835.26","expected":"960.18"}
-{"calculated":"834.26","expected":"960.18"}
-{"calculated":"833.26","expected":"960.18"}
-{"calculated":"832.26","expected":"960.18"}
-{"calculated":"831.26","expected":"960.18"}
-{"calculated":"830.26","expected":"960.18"}
-{"calculated":"829.26","expected":"960.18"}
-{"calculated":"828.26","expected":"960.18"}
-{"calculated":"827.26","expected":"960.18"}
-{"calculated":"826.26","expected":"960.18"}
-{"calculated":"825.26","expected":"960.18"}
-{"calculated":"824.26","expected":"960.18"}
-{"calculated":"823.26","expected":"960.18"}
-{"calculated":"821.26","expected":"960.18"}
-{"calculated":"822.26","expected":"960.18"}
-{"calculated":"820.26","expected":"960.18"}
-{"calculated":"819.26","expected":"960.18"}
-{"calculated":"817.26","expected":"960.18"}
-{"calculated":"818.26","expected":"960.18"}
-{"calculated":"815.26","expected":"960.18"}
-{"calculated":"816.26","expected":"960.18"}
-{"calculated":"814.26","expected":"960.18"}
-{"calculated":"813.26","expected":"960.18"}
-{"calculated":"811.26","expected":"960.18"}
-{"calculated":"812.26","expected":"960.18"}
-{"calculated":"809.26","expected":"960.18"}
-{"calculated":"810.26","expected":"960.18"}
-{"calculated":"807.26","expected":"960.18"}
-{"calculated":"808.26","expected":"960.18"}
-{"calculated":"806.26","expected":"960.18"}
-{"calculated":"804.26","expected":"960.18"}
-{"calculated":"805.26","expected":"960.18"}
-{"calculated":"802.26","expected":"960.18"}
-{"calculated":"803.26","expected":"960.18"}
-{"calculated":"801.26","expected":"960.18"}
-{"calculated":"799.26","expected":"960.18"}
-{"calculated":"800.26","expected":"960.18"}
-{"calculated":"798.26","expected":"960.18"}
-{"calculated":"797.26","expected":"960.18"}
-{"calculated":"796.26","expected":"960.18"}
-{"calculated":"795.26","expected":"960.18"}
-{"calculated":"793.26","expected":"960.18"}
-{"calculated":"792.26","expected":"960.18"}
-{"calculated":"794.26","expected":"960.18"}
-{"calculated":"791.26","expected":"960.18"}
-{"calculated":"790.26","expected":"960.18"}
-{"calculated":"789.26","expected":"960.18"}
-{"calculated":"788.26","expected":"960.18"}
-{"calculated":"787.26","expected":"960.18"}
-{"calculated":"786.26","expected":"960.18"}
-{"calculated":"785.26","expected":"960.18"}
-{"calculated":"900.26","expected":"960.18"}
-{"calculated":"899.26","expected":"960.18"}
+["T4 ","0","passed","2024-04-19T18:38:08.479Z"]
+["T4 ","48","passed","2024-04-19T18:38:08.480Z"]
+["T4 ","96","passed","2024-04-19T18:38:08.480Z"]
+["T4 ","144","passed","2024-04-19T18:38:08.480Z"]
+["T4 ","192","passed","2024-04-19T18:38:08.481Z"]
+["T4 ","240","passed","2024-04-19T18:38:08.481Z"]
+["T4 ","288","passed","2024-04-19T18:38:08.481Z"]
+["T4 ","336","passed","2024-04-19T18:38:08.481Z"]
+["T4 ","384","passed","2024-04-19T18:38:08.481Z"]
+["T4 ","432","passed","2024-04-19T18:38:08.481Z"]
+["T4 ","480","passed","2024-04-19T18:38:08.482Z"]
+["T4 ","528","passed","2024-04-19T18:38:08.486Z"]
+["T4 ","576","passed","2024-04-19T18:38:08.487Z"]
+["T4 ","624","passed","2024-04-19T18:38:08.487Z"]
+["T4 ","672","passed","2024-04-19T18:38:08.487Z"]
+["T4 ","720","passed","2024-04-19T18:38:08.487Z"]
+["T4 ","768","passed","2024-04-19T18:38:08.487Z"]
+["T4 ","816","passed","2024-04-19T18:38:08.488Z"]
+["T4 ","864","passed","2024-04-19T18:38:08.488Z"]
+["T4 ","912","passed","2024-04-19T18:38:08.488Z"]
+["T4 ","960","passed","2024-04-19T18:38:08.489Z"]
+["T4 ","1008","passed","2024-04-19T18:38:08.489Z"]
+["T4 ","1056","passed","2024-04-19T18:38:08.489Z"]
+["T4 ","1104","passed","2024-04-19T18:38:08.489Z"]
+["T4 ","1152","passed","2024-04-19T18:38:08.490Z"]
+["T4 ","1200","passed","2024-04-19T18:38:08.490Z"]
+["T4 ","1248","passed","2024-04-19T18:38:08.490Z"]
+["T4 ","1296","passed","2024-04-19T18:38:08.490Z"]
+["T4 ","1344","passed","2024-04-19T18:38:08.491Z"]
+["T4 ","1392","passed","2024-04-19T18:38:08.491Z"]
+["T4 ","1440","passed","2024-04-19T18:38:08.639Z"]
+["T4 ","1488","passed","2024-04-19T18:38:08.640Z"]
+["T4 ","1536","passed","2024-04-19T18:38:08.642Z"]
+["T4 ","1584","passed","2024-04-19T18:38:08.648Z"]
+["T4 ","1632","passed","2024-04-19T18:38:08.649Z"]
+["T4 ","1680","passed","2024-04-19T18:38:08.650Z"]
+["T4 ","1728","passed","2024-04-19T18:38:08.658Z"]
+["T4 ","1776","passed","2024-04-19T18:38:08.658Z"]
+["T4 ","1824","passed","2024-04-19T18:38:08.659Z"]
+["T4 ","1872","passed","2024-04-19T18:38:08.659Z"]
+["T4 ","1920","passed","2024-04-19T18:38:08.659Z"]
+["T4 ","1968","passed","2024-04-19T18:38:08.659Z"]
+["T4 ","2016","passed","2024-04-19T18:38:08.659Z"]
+["T4 ","2064","passed","2024-04-19T18:38:08.659Z"]
+["T4 ","2112","passed","2024-04-19T18:38:08.661Z"]
+["T4 ","2160","passed","2024-04-19T18:38:08.662Z"]
+["T4 ","2208","passed","2024-04-19T18:38:08.662Z"]
+["T4 ","2256","passed","2024-04-19T18:38:08.662Z"]
+["T4 ","2304","passed","2024-04-19T18:38:08.662Z"]
+["T4 ","2352","passed","2024-04-19T18:38:08.663Z"]
+["T4 ","2400","passed","2024-04-19T18:38:08.663Z"]
+["T4 ","2448","passed","2024-04-19T18:38:08.663Z"]
+["T4 ","2496","passed","2024-04-19T18:38:08.663Z"]
+["T4 ","2544","passed","2024-04-19T18:38:08.663Z"]
+["T4 ","2592","passed","2024-04-19T18:38:08.663Z"]
+["T4 ","2640","passed","2024-04-19T18:38:08.663Z"]
+["T4 ","2688","passed","2024-04-19T18:38:08.664Z"]
+["T4 ","2736","passed","2024-04-19T18:38:08.665Z"]
+["T4 ","2784","passed","2024-04-19T18:38:08.665Z"]
+["T4 ","2880","passed","2024-04-19T18:38:08.666Z"]
+["T4 ","2832","passed","2024-04-19T18:38:08.665Z"]
+["T4 ","2928","passed","2024-04-19T18:38:08.666Z"]
+["T4 ","2976","passed","2024-04-19T18:38:08.667Z"]
+["T4 ","3024","passed","2024-04-19T18:38:08.667Z"]
+["T4 ","3072","passed","2024-04-19T18:38:08.667Z"]
+["T4 ","3120","passed","2024-04-19T18:38:08.670Z"]
+["T4 ","3168","passed","2024-04-19T18:38:08.670Z"]
+["T4 ","3216","passed","2024-04-19T18:38:08.672Z"]
+["T4 ","3264","passed","2024-04-19T18:38:08.672Z"]
+["T4 ","3312","passed","2024-04-19T18:38:08.672Z"]
+["T4 ","3360","passed","2024-04-19T18:38:08.673Z"]
+["T4 ","3408","passed","2024-04-19T18:38:08.673Z"]
+["T4 ","3456","passed","2024-04-19T18:38:08.673Z"]
+["T4 ","3504","passed","2024-04-19T18:38:08.673Z"]
+["T4 ","3552","passed","2024-04-19T18:38:08.673Z"]
+["T4 ","3600","passed","2024-04-19T18:38:08.674Z"]
+["T4 ","3648","passed","2024-04-19T18:38:08.674Z"]
+["T4 ","3696","passed","2024-04-19T18:38:08.674Z"]
+["T4 ","3744","passed","2024-04-19T18:38:08.674Z"]
+["T4 ","3792","passed","2024-04-19T18:38:08.675Z"]
+["T4 ","3840","passed","2024-04-19T18:38:08.675Z"]
+["T4 ","3888","passed","2024-04-19T18:38:08.675Z"]
+["T4 ","3936","passed","2024-04-19T18:38:08.675Z"]
+["T4 ","3984","passed","2024-04-19T18:38:08.675Z"]
+["T4 ","4032","passed","2024-04-19T18:38:08.675Z"]
+["T4 ","4080","passed","2024-04-19T18:38:08.678Z"]
+["T4 ","4096","passed","2024-04-19T18:38:08.678Z"]
+["T4 ","4128","passed","2024-04-19T18:38:08.679Z"]
+["T4 ","4176","passed","2024-04-19T18:38:08.679Z"]
+["T4 ","4192","passed","2024-04-19T18:38:08.679Z"]
+["T4 ","4224","passed","2024-04-19T18:38:08.679Z"]
+["T4 ","4272","passed","2024-04-19T18:38:08.679Z"]
+["T4 ","4288","passed","2024-04-19T18:38:08.680Z"]
+["T4 ","4320","passed","2024-04-19T18:38:08.680Z"]
+["T4 ","4368","passed","2024-04-19T18:38:08.680Z"]
+["T4 ","4384","passed","2024-04-19T18:38:08.680Z"]
+["T4 ","4416","passed","2024-04-19T18:38:08.681Z"]
+["T4 ","4464","passed","2024-04-19T18:38:08.681Z"]
+["T4 ","4480","passed","2024-04-19T18:38:08.681Z"]
+["T4 ","4512","passed","2024-04-19T18:38:08.681Z"]
+["T4 ","4560","passed","2024-04-19T18:38:08.681Z"]
+["T4 ","4576","passed","2024-04-19T18:38:08.681Z"]
+["T4 ","4608","passed","2024-04-19T18:38:08.682Z"]
+["T4 ","4656","passed","2024-04-19T18:38:08.682Z"]
+["T4 ","4672","passed","2024-04-19T18:38:08.682Z"]
+["T4 ","4704","passed","2024-04-19T18:38:08.682Z"]
+["T4 ","4752","passed","2024-04-19T18:38:08.682Z"]
+["T4 ","4768","passed","2024-04-19T18:38:08.683Z"]
+["T4 ","4800","passed","2024-04-19T18:38:08.686Z"]
+["T4 ","4848","passed","2024-04-19T18:38:08.686Z"]
+["T4 ","4864","passed","2024-04-19T18:38:08.687Z"]
+["T4 ","4896","passed","2024-04-19T18:38:08.687Z"]
+["T4 ","4944","passed","2024-04-19T18:38:08.687Z"]
+["T4 ","4960","passed","2024-04-19T18:38:08.687Z"]
+["T4 ","4992","passed","2024-04-19T18:38:08.688Z"]
+["T4 ","5040","passed","2024-04-19T18:38:08.688Z"]
+["T4 ","5056","passed","2024-04-19T18:38:08.688Z"]
+["T4 ","5088","passed","2024-04-19T18:38:08.688Z"]
+["T4 ","5136","passed","2024-04-19T18:38:08.689Z"]
+["T4 ","5152","passed","2024-04-19T18:38:08.690Z"]
+["T4 ","5184","passed","2024-04-19T18:38:08.693Z"]
+["T4 ","5232","passed","2024-04-19T18:38:08.694Z"]
+["T4 ","5248","passed","2024-04-19T18:38:08.694Z"]
+["T4 ","5280","passed","2024-04-19T18:38:08.694Z"]
+["T4 ","5328","passed","2024-04-19T18:38:08.694Z"]
+["T4 ","5344","passed","2024-04-19T18:38:08.694Z"]
+["T4 ","5376","passed","2024-04-19T18:38:08.695Z"]
+["T4 ","5424","passed","2024-04-19T18:38:08.695Z"]
+["T4 ","5440","passed","2024-04-19T18:38:08.695Z"]
+["T4 ","5472","passed","2024-04-19T18:38:08.695Z"]
+["T4 ","5520","passed","2024-04-19T18:38:08.695Z"]
+["T4 ","5536","passed","2024-04-19T18:38:08.696Z"]
+["T4 ","5568","passed","2024-04-19T18:38:08.696Z"]
+["T4 ","5616","passed","2024-04-19T18:38:08.696Z"]
+["T4 ","5632","passed","2024-04-19T18:38:08.696Z"]
+["T4 ","5664","passed","2024-04-19T18:38:08.696Z"]
+["T4 ","5712","passed","2024-04-19T18:38:08.698Z"]
+["T4 ","5728","passed","2024-04-19T18:38:08.698Z"]
+["T4 ","5760","passed","2024-04-19T18:38:08.698Z"]
+["T4 ","5808","passed","2024-04-19T18:38:08.698Z"]
+["T4 ","5824","passed","2024-04-19T18:38:08.699Z"]
+["T4 ","5856","passed","2024-04-19T18:38:08.699Z"]
+["T4 ","5904","passed","2024-04-19T18:38:08.699Z"]
+["T4 ","5920","passed","2024-04-19T18:38:08.699Z"]
+["T4 ","5952","passed","2024-04-19T18:38:08.699Z"]
+["T4 ","6000","passed","2024-04-19T18:38:08.703Z"]
+["T4 ","6016","passed","2024-04-19T18:38:08.704Z"]
+["T4 ","6048","passed","2024-04-19T18:38:08.704Z"]
+["T4 ","6096","passed","2024-04-19T18:38:08.704Z"]
+["T4 ","6112","passed","2024-04-19T18:38:08.704Z"]
+["T4 ","6144","passed","2024-04-19T18:38:08.705Z"]
+["T4 ","6192","passed","2024-04-19T18:38:08.705Z"]
+["T4 ","6208","passed","2024-04-19T18:38:08.705Z"]
+["T4 ","6240","passed","2024-04-19T18:38:08.705Z"]
+["T4 ","6288","passed","2024-04-19T18:38:08.705Z"]
+["T4 ","6304","passed","2024-04-19T18:38:08.706Z"]
+["T4 ","6336","passed","2024-04-19T18:38:08.706Z"]
+["T4 ","6384","passed","2024-04-19T18:38:08.706Z"]
+["T4 ","6400","passed","2024-04-19T18:38:08.707Z"]
+["T4 ","6432","passed","2024-04-19T18:38:08.707Z"]
+["T4 ","6480","passed","2024-04-19T18:38:08.707Z"]
+["T4 ","6496","passed","2024-04-19T18:38:08.707Z"]
+["T4 ","6528","passed","2024-04-19T18:38:08.709Z"]
+["T4 ","6576","passed","2024-04-19T18:38:08.710Z"]
+["T4 ","6592","passed","2024-04-19T18:38:08.710Z"]
+["T4 ","6624","passed","2024-04-19T18:38:08.711Z"]
+["T4 ","6672","passed","2024-04-19T18:38:08.711Z"]
+["T4 ","6688","passed","2024-04-19T18:38:08.711Z"]
+["T4 ","6720","passed","2024-04-19T18:38:08.711Z"]
+["T4 ","6768","passed","2024-04-19T18:38:08.712Z"]
+["T4 ","6784","passed","2024-04-19T18:38:08.712Z"]
+["T4 ","6816","passed","2024-04-19T18:38:08.712Z"]
+["T4 ","6864","passed","2024-04-19T18:38:08.712Z"]
+["T4 ","6880","passed","2024-04-19T18:38:08.712Z"]
+["T4 ","6912","passed","2024-04-19T18:38:08.713Z"]
+["T4 ","6960","passed","2024-04-19T18:38:08.714Z"]
+["T4 ","6976","passed","2024-04-19T18:38:08.715Z"]
+["T4 ","7008","passed","2024-04-19T18:38:08.715Z"]
+["T4 ","7056","passed","2024-04-19T18:38:08.715Z"]
+["T4 ","7072","passed","2024-04-19T18:38:08.716Z"]
+["T4 ","7104","passed","2024-04-19T18:38:08.717Z"]
+["T4 ","7152","passed","2024-04-19T18:38:08.717Z"]
+["T4 ","7168","passed","2024-04-19T18:38:08.719Z"]
+["T4 ","7200","passed","2024-04-19T18:38:08.719Z"]
+["T4 ","7248","passed","2024-04-19T18:38:08.719Z"]
+["T4 ","7264","passed","2024-04-19T18:38:08.721Z"]
+["T4 ","7296","passed","2024-04-19T18:38:08.721Z"]
+["T4 ","7344","passed","2024-04-19T18:38:08.721Z"]
+["T4 ","7360","passed","2024-04-19T18:38:08.721Z"]
+["T4 ","7392","passed","2024-04-19T18:38:08.722Z"]
+["T4 ","7440","passed","2024-04-19T18:38:08.722Z"]
+["T4 ","7456","passed","2024-04-19T18:38:08.722Z"]
+["T4 ","7488","passed","2024-04-19T18:38:08.722Z"]
+["T4 ","7536","passed","2024-04-19T18:38:08.723Z"]
+["T4 ","7552","passed","2024-04-19T18:38:08.723Z"]
+["T4 ","7584","passed","2024-04-19T18:38:08.723Z"]
+["T4 ","7632","passed","2024-04-19T18:38:08.725Z"]
+["T4 ","7648","passed","2024-04-19T18:38:08.725Z"]
+["T4 ","7680","passed","2024-04-19T18:38:08.725Z"]
+["T4 ","7728","passed","2024-04-19T18:38:08.726Z"]
+["T4 ","7744","passed","2024-04-19T18:38:08.726Z"]
+["T4 ","7776","passed","2024-04-19T18:38:08.726Z"]
+["T4 ","7824","passed","2024-04-19T18:38:08.726Z"]
+["T4 ","7840","passed","2024-04-19T18:38:08.727Z"]
+["T4 ","7872","passed","2024-04-19T18:38:08.727Z"]
+["T4 ","7920","passed","2024-04-19T18:38:08.733Z"]
+["T4 ","7936","passed","2024-04-19T18:38:08.734Z"]
+["T4 ","7968","passed","2024-04-19T18:38:08.734Z"]
+["T4 ","8016","passed","2024-04-19T18:38:08.734Z"]
+["T4 ","8032","passed","2024-04-19T18:38:08.734Z"]
+["T4 ","8112","passed","2024-04-19T18:38:08.735Z"]
+["T4 ","8064","passed","2024-04-19T18:38:08.734Z"]
+["T4 ","8128","passed","2024-04-19T18:38:08.735Z"]
+["T4 ","8160","passed","2024-04-19T18:38:08.735Z"]
+["T4 ","8208","passed","2024-04-19T18:38:08.735Z"]
+["T4 ","8224","passed","2024-04-19T18:38:08.735Z"]
+["T4 ","8304","passed","2024-04-19T18:38:08.736Z"]
+["T4 ","8256","passed","2024-04-19T18:38:08.736Z"]
+["T4 ","8320","passed","2024-04-19T18:38:08.736Z"]
+["T4 ","8352","passed","2024-04-19T18:38:08.736Z"]
+["T4 ","8400","passed","2024-04-19T18:38:08.737Z"]
+["T4 ","8416","passed","2024-04-19T18:38:08.737Z"]
+["T4 ","8448","passed","2024-04-19T18:38:08.737Z"]
+["T4 ","8496","passed","2024-04-19T18:38:08.737Z"]
+["T4 ","8512","passed","2024-04-19T18:38:08.739Z"]
+["T4 ","8544","passed","2024-04-19T18:38:08.739Z"]
+["T4 ","8592","passed","2024-04-19T18:38:08.739Z"]
+["T4 ","8640","passed","2024-04-19T18:38:08.739Z"]
+["T4 ","8688","passed","2024-04-19T18:38:08.740Z"]
+["T4 ","8736","passed","2024-04-19T18:38:08.741Z"]
+["T4 ","8784","passed","2024-04-19T18:38:08.741Z"]
+["T4 ","8832","passed","2024-04-19T18:38:08.770Z"]
+["T4 ","8880","passed","2024-04-19T18:38:08.782Z"]
+["T4 ","8928","passed","2024-04-19T18:38:08.786Z"]
+["T4 ","8976","passed","2024-04-19T18:38:08.787Z"]
+["T4 ","9024","passed","2024-04-19T18:38:08.791Z"]
+["T4 ","9072","passed","2024-04-19T18:38:08.792Z"]
+["T4 ","9120","passed","2024-04-19T18:38:08.792Z"]
+["T4 ","9168","passed","2024-04-19T18:38:08.793Z"]
+["T4 ","9216","passed","2024-04-19T18:38:08.793Z"]
+["T4 ","9264","passed","2024-04-19T18:38:08.795Z"]
+["T4 ","9312","passed","2024-04-19T18:38:08.796Z"]
+["T4 ","9360","passed","2024-04-19T18:38:08.871Z"]
+["T4 ","9408","passed","2024-04-19T18:38:08.872Z"]
+["T4 ","9456","passed","2024-04-19T18:38:08.872Z"]
+["T4 ","9504","passed","2024-04-19T18:38:08.872Z"]
+["T4 ","9552","passed","2024-04-19T18:38:08.872Z"]
+["T4 ","9600","passed","2024-04-19T18:38:08.872Z"]
+["T4 ","9648","passed","2024-04-19T18:38:08.873Z"]
+["T4 ","9696","passed","2024-04-19T18:38:08.873Z"]
+["T4 ","9744","passed","2024-04-19T18:38:08.873Z"]
+["T4 ","9792","passed","2024-04-19T18:38:08.873Z"]
+["T4 ","9840","passed","2024-04-19T18:38:08.873Z"]
+["T4 ","9888","passed","2024-04-19T18:38:08.874Z"]
+["T4 ","9936","passed","2024-04-19T18:38:08.874Z"]
+["T4 ","9984","passed","2024-04-19T18:38:08.874Z"]
+["T4 ","10032","passed","2024-04-19T18:38:08.874Z"]
+["T4 ","10080","passed","2024-04-19T18:38:08.874Z"]
+["T4 ","10128","passed","2024-04-19T18:38:08.874Z"]
+["T4 ","10224","passed","2024-04-19T18:38:08.875Z"]
+["T4 ","10272","passed","2024-04-19T18:38:08.875Z"]
+["T4 ","10176","passed","2024-04-19T18:38:08.875Z"]
+["T4 ","10320","passed","2024-04-19T18:38:08.875Z"]
+["T4 ","10368","passed","2024-04-19T18:38:08.875Z"]
+["T4 ","10416","passed","2024-04-19T18:38:08.875Z"]
+["T4 ","10464","passed","2024-04-19T18:38:08.876Z"]
+["T4 ","10512","passed","2024-04-19T18:38:08.876Z"]
+["T4 ","10560","passed","2024-04-19T18:38:08.878Z"]
+["T4 ","10608","passed","2024-04-19T18:38:08.878Z"]
+["T4 ","10656","passed","2024-04-19T18:38:08.878Z"]
+["T4 ","10704","passed","2024-04-19T18:38:08.878Z"]
+["T4 ","10752","passed","2024-04-19T18:38:08.878Z"]
+["T4 ","10800","passed","2024-04-19T18:38:08.879Z"]
+["T4 ","10848","passed","2024-04-19T18:38:08.879Z"]
+["T4 ","10896","passed","2024-04-19T18:38:08.879Z"]
+["T4 ","10944","passed","2024-04-19T18:38:08.879Z"]
+["T4 ","10992","passed","2024-04-19T18:38:08.879Z"]
+["T4 ","11040","passed","2024-04-19T18:38:08.879Z"]
+["T4 ","11088","passed","2024-04-19T18:38:08.879Z"]
+["T4 ","11136","passed","2024-04-19T18:38:08.880Z"]
+["T4 ","11184","passed","2024-04-19T18:38:08.880Z"]
+["T4 ","11232","passed","2024-04-19T18:38:08.880Z"]
+["T4 ","11280","passed","2024-04-19T18:38:08.880Z"]
+["T4 ","11328","passed","2024-04-19T18:38:08.880Z"]
+["T4 ","11376","passed","2024-04-19T18:38:08.880Z"]
+["T4 ","11424","passed","2024-04-19T18:38:08.881Z"]
+["T4 ","11472","passed","2024-04-19T18:38:08.881Z"]
+["T4 ","11520","passed","2024-04-19T18:38:08.881Z"]
+["T4 ","11568","passed","2024-04-19T18:38:08.881Z"]
+["T4 ","11616","passed","2024-04-19T18:38:08.881Z"]
+["T4 ","11664","passed","2024-04-19T18:38:08.881Z"]
+["T4 ","11712","passed","2024-04-19T18:38:08.882Z"]
+["T4 ","11808","passed","2024-04-19T18:38:08.882Z"]
+["T4 ","11760","passed","2024-04-19T18:38:08.882Z"]
+["T4 ","11904","passed","2024-04-19T18:38:08.883Z"]
+["T4 ","11856","passed","2024-04-19T18:38:08.883Z"]
+["T4 ","11952","passed","2024-04-19T18:38:08.883Z"]
+["T4 ","12000","passed","2024-04-19T18:38:08.884Z"]
+["T4 ","12048","passed","2024-04-19T18:38:08.884Z"]
+["T4 ","12096","passed","2024-04-19T18:38:08.884Z"]
+["T4 ","12144","passed","2024-04-19T18:38:08.884Z"]
+["T4 ","12192","passed","2024-04-19T18:38:08.884Z"]
+["T4 ","12240","passed","2024-04-19T18:38:08.885Z"]
+["T4 ","12288","passed","2024-04-19T18:38:08.885Z"]
+["T4 ","12336","passed","2024-04-19T18:38:08.885Z"]
+["T4 ","12384","passed","2024-04-19T18:38:08.885Z"]
+["T4 ","12432","passed","2024-04-19T18:38:08.885Z"]
+["T4 ","12480","passed","2024-04-19T18:38:08.885Z"]
+["T4 ","12528","passed","2024-04-19T18:38:08.885Z"]
+["T4 ","12576","passed","2024-04-19T18:38:08.886Z"]
+["T4 ","12624","passed","2024-04-19T18:38:08.886Z"]
+["T4 ","12672","passed","2024-04-19T18:38:08.886Z"]
+["T4 ","12720","passed","2024-04-19T18:38:08.886Z"]
+["T4 ","12768","passed","2024-04-19T18:38:08.886Z"]
+["T4 ","12816","passed","2024-04-19T18:38:08.887Z"]
+["T4 ","12864","passed","2024-04-19T18:38:08.887Z"]
+["T4 ","12912","passed","2024-04-19T18:38:08.887Z"]
+["T4 ","12960","passed","2024-04-19T18:38:08.887Z"]
+["T4 ","13008","passed","2024-04-19T18:38:08.888Z"]
+["T4 ","13056","passed","2024-04-19T18:38:08.888Z"]
+["T4 ","13104","passed","2024-04-19T18:38:08.889Z"]
+["T4 ","13152","passed","2024-04-19T18:38:08.889Z"]
+["T4 ","13200","passed","2024-04-19T18:38:08.890Z"]
+["T4 ","13248","passed","2024-04-19T18:38:08.890Z"]
+["T4 ","13296","passed","2024-04-19T18:38:08.891Z"]
+["T4 ","13344","passed","2024-04-19T18:38:08.891Z"]
+["T4 ","13392","passed","2024-04-19T18:38:08.892Z"]
+["T4 ","13440","passed","2024-04-19T18:38:08.892Z"]
+["T4 ","13488","passed","2024-04-19T18:38:08.893Z"]
+["T4 ","13536","passed","2024-04-19T18:38:08.893Z"]
+["T4 ","13584","passed","2024-04-19T18:38:08.893Z"]
+["T4 ","13632","passed","2024-04-19T18:38:08.893Z"]
+["T4 ","13680","passed","2024-04-19T18:38:08.893Z"]
+["T4 ","13728","passed","2024-04-19T18:38:08.894Z"]
+["T4 ","13776","passed","2024-04-19T18:38:08.894Z"]
+["T4 ","13824","passed","2024-04-19T18:38:08.894Z"]
+["T4 ","13872","passed","2024-04-19T18:38:08.895Z"]
+["T4 ","13968","passed","2024-04-19T18:38:08.896Z"]
+["T4 ","13920","passed","2024-04-19T18:38:08.895Z"]
+["T4 ","14016","passed","2024-04-19T18:38:08.896Z"]
+["T4 ","14064","passed","2024-04-19T18:38:08.896Z"]
+["T4 ","14112","passed","2024-04-19T18:38:08.896Z"]
+["T4 ","14208","passed","2024-04-19T18:38:08.897Z"]
+["T4 ","14160","passed","2024-04-19T18:38:08.897Z"]
+["T4 ","14256","passed","2024-04-19T18:38:08.897Z"]
+["T4 ","14352","passed","2024-04-19T18:38:08.897Z"]
+["T4 ","14304","passed","2024-04-19T18:38:08.897Z"]
+["T4 ","14400","passed","2024-04-19T18:38:08.898Z"]
+["T4 ","14448","passed","2024-04-19T18:38:08.898Z"]
+["T4 ","14496","passed","2024-04-19T18:38:08.898Z"]
+["T4 ","14592","passed","2024-04-19T18:38:08.898Z"]
+["T4 ","14640","passed","2024-04-19T18:38:08.902Z"]
+["T4 ","14688","passed","2024-04-19T18:38:08.902Z"]
+["T4 ","14544","passed","2024-04-19T18:38:08.898Z"]
+["T4 ","14784","passed","2024-04-19T18:38:08.903Z"]
+["T4 ","14736","passed","2024-04-19T18:38:08.903Z"]
+["T4 ","14832","passed","2024-04-19T18:38:08.904Z"]
+["T4 ","14880","passed","2024-04-19T18:38:08.904Z"]
+["T4 ","14928","passed","2024-04-19T18:38:08.904Z"]
+["T4 ","14976","passed","2024-04-19T18:38:08.904Z"]
+["T4 ","15024","passed","2024-04-19T18:38:08.904Z"]
+["T4 ","15072","passed","2024-04-19T18:38:08.904Z"]
+["T4 ","15120","passed","2024-04-19T18:38:08.904Z"]
+["T4 ","15168","passed","2024-04-19T18:38:08.905Z"]
+["T4 ","15216","passed","2024-04-19T18:38:08.905Z"]
+["T4 ","15264","passed","2024-04-19T18:38:08.905Z"]
+["T4 ","15312","passed","2024-04-19T18:38:08.906Z"]
+["T4 ","15360","passed","2024-04-19T18:38:08.906Z"]
+["T4 ","15408","passed","2024-04-19T18:38:08.906Z"]
+["T4 ","15456","passed","2024-04-19T18:38:08.907Z"]
+["T4 ","15504","passed","2024-04-19T18:38:08.907Z"]
+["T4 ","15552","passed","2024-04-19T18:38:08.908Z"]
+["T4 ","15600","passed","2024-04-19T18:38:08.908Z"]
+["T4 ","15648","passed","2024-04-19T18:38:08.909Z"]
+["T4 ","15696","passed","2024-04-19T18:38:08.909Z"]
+["T4 ","15744","passed","2024-04-19T18:38:08.910Z"]
+["T4 ","15792","passed","2024-04-19T18:38:08.911Z"]
+["T4 ","15840","passed","2024-04-19T18:38:08.911Z"]
+["T4 ","15888","passed","2024-04-19T18:38:08.912Z"]
+["T4 ","15936","passed","2024-04-19T18:38:08.914Z"]
+["T4 ","15984","passed","2024-04-19T18:38:08.915Z"]
+["T4 ","16032","passed","2024-04-19T18:38:08.915Z"]
+["T4 ","16080","passed","2024-04-19T18:38:08.916Z"]
+["T4 ","16128","passed","2024-04-19T18:38:08.916Z"]
+["T4 ","16176","passed","2024-04-19T18:38:08.916Z"]
+["T4 ","16224","passed","2024-04-19T18:38:08.917Z"]
+["T4 ","16272","passed","2024-04-19T18:38:08.917Z"]
+["T4 ","16320","passed","2024-04-19T18:38:08.918Z"]
+["T4 ","16368","passed","2024-04-19T18:38:08.918Z"]
+["T4 ","16416","passed","2024-04-19T18:38:08.918Z"]
+["T4 ","16464","passed","2024-04-19T18:38:08.919Z"]
+["T4 ","16512","passed","2024-04-19T18:38:08.919Z"]
+["T4 ","16560","passed","2024-04-19T18:38:08.920Z"]
+["T4 ","16608","passed","2024-04-19T18:38:08.920Z"]
+["T4 ","16656","passed","2024-04-19T18:38:08.920Z"]
+["T4 ","16704","passed","2024-04-19T18:38:08.921Z"]
+["T4 ","16752","passed","2024-04-19T18:38:08.921Z"]
+["T4 ","16800","passed","2024-04-19T18:38:08.921Z"]
+["T4 ","16848","passed","2024-04-19T18:38:08.922Z"]
+["T4 ","16896","passed","2024-04-19T18:38:08.922Z"]
+["T4 ","16944","passed","2024-04-19T18:38:08.922Z"]
+["T4 ","16992","passed","2024-04-19T18:38:08.922Z"]
+["T4 ","17040","passed","2024-04-19T18:38:08.923Z"]
+["T4 ","17088","passed","2024-04-19T18:38:08.923Z"]
+["T4 ","17136","passed","2024-04-19T18:38:08.923Z"]
+["T4 ","17184","passed","2024-04-19T18:38:08.925Z"]
+["T4 ","17232","passed","2024-04-19T18:38:08.925Z"]
+["T4 ","17280","passed","2024-04-19T18:38:08.926Z"]
+["T4 ","17328","passed","2024-04-19T18:38:08.926Z"]
+["T4 ","17376","passed","2024-04-19T18:38:08.926Z"]
+["T4 ","17424","passed","2024-04-19T18:38:08.926Z"]
+["T4 ","17472","passed","2024-04-19T18:38:08.926Z"]
+["T4 ","17520","passed","2024-04-19T18:38:08.926Z"]
+["T4 ","17568","passed","2024-04-19T18:38:08.927Z"]
+["T4 ","17616","passed","2024-04-19T18:38:08.927Z"]
+["T4 ","17664","passed","2024-04-19T18:38:08.927Z"]
+["T4 ","17712","passed","2024-04-19T18:38:08.928Z"]
+["T4 ","17760","passed","2024-04-19T18:38:08.928Z"]
+["T4 ","17808","passed","2024-04-19T18:38:08.928Z"]
+["T4 ","17856","passed","2024-04-19T18:38:08.928Z"]
+["T4 ","17904","passed","2024-04-19T18:38:08.929Z"]
+["T4 ","17952","passed","2024-04-19T18:38:08.929Z"]
+["T4 ","18000","passed","2024-04-19T18:38:08.929Z"]
+["T4 ","18048","passed","2024-04-19T18:38:08.929Z"]
+["T4 ","18096","passed","2024-04-19T18:38:08.929Z"]
+["T4 ","18144","passed","2024-04-19T18:38:08.930Z"]
+["T4 ","18192","passed","2024-04-19T18:38:08.931Z"]
+["T4 ","18240","passed","2024-04-19T18:38:08.931Z"]
+["T4 ","18288","passed","2024-04-19T18:38:08.931Z"]
+["T4 ","18336","passed","2024-04-19T18:38:08.931Z"]
+["T4 ","18384","passed","2024-04-19T18:38:08.931Z"]
+["T4 ","18432","passed","2024-04-19T18:38:08.931Z"]
+["T4 ","18480","passed","2024-04-19T18:38:08.932Z"]
+["T4 ","18528","passed","2024-04-19T18:38:08.932Z"]
+["T4 ","18576","passed","2024-04-19T18:38:08.932Z"]
+["T4 ","18624","passed","2024-04-19T18:38:08.932Z"]
+["T4 ","18672","passed","2024-04-19T18:38:08.933Z"]
+["T4 ","18720","passed","2024-04-19T18:38:08.934Z"]
+["T4 ","18768","passed","2024-04-19T18:38:08.934Z"]
+["T4 ","18816","passed","2024-04-19T18:38:08.934Z"]
+["T4 ","18864","passed","2024-04-19T18:38:08.934Z"]
+["T4 ","18912","passed","2024-04-19T18:38:08.935Z"]
+["T4 ","18960","passed","2024-04-19T18:38:08.935Z"]
+["T4 ","19008","passed","2024-04-19T18:38:08.935Z"]
+["T4 ","19056","passed","2024-04-19T18:38:08.935Z"]
+["T4 ","19104","passed","2024-04-19T18:38:08.936Z"]
+["T4 ","19152","passed","2024-04-19T18:38:08.936Z"]
+["T4 ","19200","passed","2024-04-19T18:38:08.936Z"]
+["T4 ","19248","passed","2024-04-19T18:38:08.937Z"]
+["T4 ","19296","passed","2024-04-19T18:38:08.937Z"]
+["T4 ","19344","passed","2024-04-19T18:38:08.937Z"]
+["T4 ","19392","passed","2024-04-19T18:38:08.937Z"]
+["T4 ","19440","passed","2024-04-19T18:38:08.937Z"]
+["T4 ","19488","passed","2024-04-19T18:38:08.938Z"]
+["T4 ","19536","passed","2024-04-19T18:38:08.938Z"]
+["T4 ","19584","passed","2024-04-19T18:38:08.938Z"]
+["T4 ","19632","passed","2024-04-19T18:38:08.938Z"]
+["T4 ","19680","passed","2024-04-19T18:38:08.939Z"]
+["T4 ","19728","passed","2024-04-19T18:38:08.940Z"]
+["T4 ","19776","passed","2024-04-19T18:38:08.941Z"]
+["T4 ","19824","passed","2024-04-19T18:38:08.942Z"]
+["T4 ","20016","passed","2024-04-19T18:38:08.944Z"]
+["T4 ","20064","passed","2024-04-19T18:38:08.944Z"]
+["T4 ","20112","passed","2024-04-19T18:38:08.944Z"]
+["T4 ","20160","passed","2024-04-19T18:38:08.945Z"]
+["T4 ","20208","passed","2024-04-19T18:38:08.945Z"]
+["T4 ","20256","passed","2024-04-19T18:38:08.945Z"]
+["T4 ","20304","passed","2024-04-19T18:38:08.946Z"]
+["T4 ","20352","passed","2024-04-19T18:38:08.946Z"]
+["T4 ","20400","passed","2024-04-19T18:38:08.947Z"]
+["T4 ","20448","passed","2024-04-19T18:38:08.948Z"]
+["T4 ","20496","passed","2024-04-19T18:38:08.948Z"]
+["T4 ","20544","passed","2024-04-19T18:38:08.948Z"]
+["T4 ","19920","passed","2024-04-19T18:38:08.943Z"]
+["T4 ","20640","passed","2024-04-19T18:38:08.949Z"]
+["T4 ","20688","passed","2024-04-19T18:38:08.949Z"]
+["T4 ","20736","passed","2024-04-19T18:38:08.949Z"]
+["T4 ","20784","passed","2024-04-19T18:38:08.949Z"]
+["T4 ","20832","passed","2024-04-19T18:38:08.953Z"]
+["T4 ","20880","passed","2024-04-19T18:38:08.954Z"]
+["T4 ","20928","passed","2024-04-19T18:38:08.954Z"]
+["T4 ","20976","passed","2024-04-19T18:38:08.954Z"]
+["T4 ","21024","passed","2024-04-19T18:38:08.955Z"]
+["T4 ","21072","passed","2024-04-19T18:38:08.955Z"]
+["T4 ","21120","passed","2024-04-19T18:38:08.955Z"]
+["T4 ","21168","passed","2024-04-19T18:38:08.955Z"]
+["T4 ","21216","passed","2024-04-19T18:38:08.956Z"]
+["T4 ","21264","passed","2024-04-19T18:38:08.956Z"]
+["T4 ","21312","passed","2024-04-19T18:38:08.956Z"]
+["T4 ","21360","passed","2024-04-19T18:38:08.956Z"]
+["T4 ","21408","passed","2024-04-19T18:38:08.957Z"]
+["T4 ","21456","passed","2024-04-19T18:38:08.958Z"]
+["T4 ","21504","passed","2024-04-19T18:38:08.958Z"]
+["T4 ","21552","passed","2024-04-19T18:38:08.958Z"]
+["T4 ","21600","passed","2024-04-19T18:38:08.964Z"]
+["T4 ","21648","passed","2024-04-19T18:38:08.964Z"]
+["T4 ","21696","passed","2024-04-19T18:38:08.964Z"]
+["T4 ","21744","passed","2024-04-19T18:38:08.964Z"]
+["T4 ","21792","passed","2024-04-19T18:38:08.965Z"]
+["T4 ","21840","passed","2024-04-19T18:38:08.965Z"]
+["T4 ","21888","passed","2024-04-19T18:38:08.965Z"]
+["T4 ","21936","passed","2024-04-19T18:38:08.965Z"]
+["T4 ","21984","passed","2024-04-19T18:38:08.965Z"]
+["T4 ","22032","passed","2024-04-19T18:38:08.966Z"]
+["T4 ","22080","passed","2024-04-19T18:38:08.966Z"]
+["T4 ","22128","passed","2024-04-19T18:38:08.967Z"]
+["T4 ","22176","passed","2024-04-19T18:38:08.967Z"]
+["T4 ","22224","passed","2024-04-19T18:38:08.967Z"]
+["T4 ","22272","passed","2024-04-19T18:38:08.967Z"]
+["T4 ","22320","passed","2024-04-19T18:38:08.968Z"]
+["T4 ","22368","passed","2024-04-19T18:38:08.968Z"]
+["T4 ","22416","passed","2024-04-19T18:38:08.969Z"]
+["T4 ","22464","passed","2024-04-19T18:38:08.969Z"]
+["T4 ","22512","passed","2024-04-19T18:38:08.971Z"]
+["T4 ","22560","passed","2024-04-19T18:38:08.972Z"]
+["T4 ","22608","passed","2024-04-19T18:38:08.972Z"]
+["T4 ","22656","passed","2024-04-19T18:38:08.972Z"]
+["T4 ","22704","passed","2024-04-19T18:38:08.972Z"]
+["T4 ","22752","passed","2024-04-19T18:38:08.973Z"]
+["T4 ","22800","passed","2024-04-19T18:38:08.973Z"]
+["T4 ","22848","passed","2024-04-19T18:38:08.973Z"]
+["T4 ","22896","passed","2024-04-19T18:38:08.973Z"]
+["T4 ","22944","passed","2024-04-19T18:38:08.974Z"]
+["T4 ","22992","passed","2024-04-19T18:38:08.975Z"]
+["T4 ","19968","passed","2024-04-19T18:38:08.944Z"]
+["T4 ","23088","passed","2024-04-19T18:38:08.978Z"]
+["T4 ","23136","passed","2024-04-19T18:38:08.979Z"]
+["T4 ","23184","passed","2024-04-19T18:38:08.980Z"]
+["T4 ","23232","passed","2024-04-19T18:38:08.980Z"]
+["T4 ","23280","passed","2024-04-19T18:38:08.981Z"]
+["T4 ","23328","passed","2024-04-19T18:38:08.981Z"]
+["T4 ","23376","passed","2024-04-19T18:38:08.983Z"]
+["T4 ","23424","passed","2024-04-19T18:38:08.983Z"]
+["T4 ","23472","passed","2024-04-19T18:38:08.983Z"]
+["T4 ","23520","passed","2024-04-19T18:38:08.984Z"]
+["T4 ","23568","passed","2024-04-19T18:38:08.984Z"]
+["T4 ","23616","passed","2024-04-19T18:38:08.984Z"]
+["T4 ","23664","passed","2024-04-19T18:38:08.986Z"]
+["T4 ","23712","passed","2024-04-19T18:38:08.987Z"]
+["T4 ","23760","passed","2024-04-19T18:38:08.988Z"]
+["T4 ","23808","passed","2024-04-19T18:38:08.988Z"]
+["T4 ","23856","passed","2024-04-19T18:38:08.988Z"]
+["T4 ","23904","passed","2024-04-19T18:38:08.990Z"]
+["T4 ","23952","passed","2024-04-19T18:38:08.991Z"]
+["T4 ","24000","passed","2024-04-19T18:38:08.992Z"]
+["T4 ","24048","passed","2024-04-19T18:38:08.992Z"]
+["T4 ","24096","passed","2024-04-19T18:38:08.994Z"]
+["T4 ","24144","passed","2024-04-19T18:38:08.994Z"]
+["T4 ","24192","passed","2024-04-19T18:38:08.994Z"]
+["T4 ","24240","passed","2024-04-19T18:38:08.995Z"]
+["T4 ","24288","passed","2024-04-19T18:38:08.995Z"]
+["T4 ","24336","passed","2024-04-19T18:38:08.995Z"]
+["T4 ","24384","passed","2024-04-19T18:38:08.995Z"]
+["T4 ","24432","passed","2024-04-19T18:38:08.995Z"]
+["T4 ","24480","passed","2024-04-19T18:38:08.995Z"]
+["T4 ","24528","passed","2024-04-19T18:38:08.996Z"]
+["T4 ","24576","passed","2024-04-19T18:38:08.996Z"]
+["T4 ","24624","passed","2024-04-19T18:38:08.996Z"]
+["T4 ","24672","passed","2024-04-19T18:38:08.996Z"]
+["T4 ","24720","passed","2024-04-19T18:38:08.996Z"]
+["T4 ","24768","passed","2024-04-19T18:38:08.996Z"]
+["T4 ","24816","passed","2024-04-19T18:38:08.997Z"]
+["T4 ","24864","passed","2024-04-19T18:38:08.997Z"]
+["T4 ","19872","passed","2024-04-19T18:38:08.943Z"]
+["T4 ","23040","passed","2024-04-19T18:38:08.978Z"]
+["T4 ","20592","passed","2024-04-19T18:38:08.949Z"]
+["T4 ","24912","passed","2024-04-19T18:38:08.998Z"]
+["T4 ","25104","passed","2024-04-19T18:38:08.999Z"]
+["T4 ","25152","passed","2024-04-19T18:38:08.999Z"]
+["T4 ","25200","passed","2024-04-19T18:38:08.999Z"]
+["T4 ","24960","passed","2024-04-19T18:38:08.998Z"]
+["T4 ","25008","passed","2024-04-19T18:38:08.998Z"]
+["T4 ","25056","passed","2024-04-19T18:38:08.998Z"]
+["T4 ","25248","passed","2024-04-19T18:38:08.999Z"]
+["T4 ","25296","passed","2024-04-19T18:38:08.999Z"]
+["T4 ","25344","passed","2024-04-19T18:38:09.000Z"]
+["T4 ","25392","passed","2024-04-19T18:38:09.000Z"]
+["T4 ","25440","passed","2024-04-19T18:38:09.000Z"]
+["T4 ","25488","passed","2024-04-19T18:38:09.001Z"]
+["T4 ","25536","passed","2024-04-19T18:38:09.001Z"]
+["T4 ","25584","passed","2024-04-19T18:38:09.002Z"]
+["T4 ","25632","passed","2024-04-19T18:38:09.003Z"]
+["T4 ","25728","passed","2024-04-19T18:38:09.003Z"]
+["T4 ","25872","passed","2024-04-19T18:38:09.004Z"]
+["T4 ","25920","passed","2024-04-19T18:38:09.004Z"]
+["T4 ","25968","passed","2024-04-19T18:38:09.004Z"]
+["T4 ","26016","passed","2024-04-19T18:38:09.004Z"]
+["T4 ","26064","passed","2024-04-19T18:38:09.005Z"]
+["T4 ","26112","passed","2024-04-19T18:38:09.005Z"]
+["T4 ","26160","passed","2024-04-19T18:38:09.005Z"]
+["T4 ","26208","passed","2024-04-19T18:38:09.005Z"]
+["T4 ","26256","passed","2024-04-19T18:38:09.005Z"]
+["T4 ","26304","passed","2024-04-19T18:38:09.006Z"]
+["T4 ","26352","passed","2024-04-19T18:38:09.006Z"]
+["T4 ","26400","passed","2024-04-19T18:38:09.006Z"]
+["T4 ","26448","passed","2024-04-19T18:38:09.006Z"]
+["T4 ","26496","passed","2024-04-19T18:38:09.006Z"]
+["T4 ","26544","passed","2024-04-19T18:38:09.006Z"]
+["T4 ","26592","passed","2024-04-19T18:38:09.006Z"]
+["T4 ","26640","passed","2024-04-19T18:38:09.007Z"]
+["T4 ","26688","passed","2024-04-19T18:38:09.007Z"]
+["T4 ","26736","passed","2024-04-19T18:38:09.007Z"]
+["T4 ","26784","passed","2024-04-19T18:38:09.007Z"]
+["T4 ","26832","passed","2024-04-19T18:38:09.008Z"]
+["T4 ","26880","passed","2024-04-19T18:38:09.008Z"]
+["T4 ","26928","passed","2024-04-19T18:38:09.008Z"]
+["T4 ","26976","passed","2024-04-19T18:38:09.008Z"]
+["T4 ","27024","passed","2024-04-19T18:38:09.008Z"]
+["T4 ","27072","passed","2024-04-19T18:38:09.008Z"]
+["T4 ","27120","passed","2024-04-19T18:38:09.009Z"]
+["T4 ","27168","passed","2024-04-19T18:38:09.009Z"]
+["T4 ","27216","passed","2024-04-19T18:38:09.009Z"]
+["T4 ","27264","passed","2024-04-19T18:38:09.009Z"]
+["T4 ","27312","passed","2024-04-19T18:38:09.009Z"]
+["T4 ","27360","passed","2024-04-19T18:38:09.009Z"]
+["T4 ","27408","passed","2024-04-19T18:38:09.009Z"]
+["T4 ","27456","passed","2024-04-19T18:38:09.010Z"]
+["T4 ","27504","passed","2024-04-19T18:38:09.010Z"]
+["T4 ","27552","passed","2024-04-19T18:38:09.010Z"]
+["T4 ","27600","passed","2024-04-19T18:38:09.010Z"]
+["T4 ","27648","passed","2024-04-19T18:38:09.010Z"]
+["T4 ","27696","passed","2024-04-19T18:38:09.010Z"]
+["T4 ","27744","passed","2024-04-19T18:38:09.011Z"]
+["T4 ","27792","passed","2024-04-19T18:38:09.011Z"]
+["T4 ","25776","passed","2024-04-19T18:38:09.003Z"]
+["T4 ","25824","passed","2024-04-19T18:38:09.004Z"]
+["T4 ","25680","passed","2024-04-19T18:38:09.003Z"]
+["T4 ","27840","passed","2024-04-19T18:38:09.011Z"]
+["T4 ","27984","passed","2024-04-19T18:38:09.011Z"]
+["T4 ","28080","passed","2024-04-19T18:38:09.012Z"]
+{"calculated":"959.93","expected":"960.18"}
+{"calculated":"958.93","expected":"960.18"}
+{"calculated":"957.93","expected":"960.18"}
+{"calculated":"956.93","expected":"960.18"}
+{"calculated":"955.93","expected":"960.18"}
+{"calculated":"954.93","expected":"960.18"}
+["T4 ","27936","passed","2024-04-19T18:38:09.011Z"]
+{"calculated":"952.93","expected":"960.18"}
+{"calculated":"951.93","expected":"960.18"}
+{"calculated":"950.93","expected":"960.18"}
+{"calculated":"949.93","expected":"960.18"}
+{"calculated":"948.93","expected":"960.18"}
+{"calculated":"947.93","expected":"960.18"}
+{"calculated":"946.93","expected":"960.18"}
+{"calculated":"945.93","expected":"960.18"}
+{"calculated":"944.93","expected":"960.18"}
+{"calculated":"943.93","expected":"960.18"}
+{"calculated":"942.93","expected":"960.18"}
+{"calculated":"941.93","expected":"960.18"}
+{"calculated":"940.93","expected":"960.18"}
+{"calculated":"939.93","expected":"960.18"}
+{"calculated":"938.93","expected":"960.18"}
+{"calculated":"937.93","expected":"960.18"}
+{"calculated":"936.93","expected":"960.18"}
+{"calculated":"935.93","expected":"960.18"}
+{"calculated":"934.93","expected":"960.18"}
+["T4 ","28032","passed","2024-04-19T18:38:09.012Z"]
+{"calculated":"933.93","expected":"960.18"}
+{"calculated":"932.93","expected":"960.18"}
+{"calculated":"931.93","expected":"960.18"}
+{"calculated":"930.93","expected":"960.18"}
+{"calculated":"929.93","expected":"960.18"}
+{"calculated":"928.93","expected":"960.18"}
+{"calculated":"927.93","expected":"960.18"}
+{"calculated":"926.93","expected":"960.18"}
+{"calculated":"925.93","expected":"960.18"}
+{"calculated":"924.93","expected":"960.18"}
+{"calculated":"923.93","expected":"960.18"}
+{"calculated":"922.93","expected":"960.18"}
+{"calculated":"921.93","expected":"960.18"}
+{"calculated":"920.93","expected":"960.18"}
+{"calculated":"919.93","expected":"960.18"}
+{"calculated":"918.93","expected":"960.18"}
+{"calculated":"917.93","expected":"960.18"}
+["T4 ","27888","passed","2024-04-19T18:38:09.011Z"]
+{"calculated":"914.93","expected":"960.18"}
+{"calculated":"913.93","expected":"960.18"}
+{"calculated":"912.93","expected":"960.18"}
+{"calculated":"911.93","expected":"960.18"}
+{"calculated":"910.93","expected":"960.18"}
+{"calculated":"909.93","expected":"960.18"}
+{"calculated":"908.93","expected":"960.18"}
+{"calculated":"907.93","expected":"960.18"}
+{"calculated":"906.93","expected":"960.18"}
+{"calculated":"905.93","expected":"960.18"}
+{"calculated":"904.93","expected":"960.18"}
+{"calculated":"903.93","expected":"960.18"}
+{"calculated":"902.93","expected":"960.18"}
+{"calculated":"901.93","expected":"960.18"}
+{"calculated":"900.93","expected":"960.18"}
+{"calculated":"899.93","expected":"960.18"}
+{"calculated":"898.93","expected":"960.18"}
+{"calculated":"897.93","expected":"960.18"}
+{"calculated":"896.93","expected":"960.18"}
+{"calculated":"895.93","expected":"960.18"}
+{"calculated":"894.93","expected":"960.18"}
+{"calculated":"893.93","expected":"960.18"}
+{"calculated":"892.93","expected":"960.18"}
+{"calculated":"891.93","expected":"960.18"}
+{"calculated":"890.93","expected":"960.18"}
+{"calculated":"889.93","expected":"960.18"}
+{"calculated":"888.93","expected":"960.18"}
+{"calculated":"887.93","expected":"960.18"}
+{"calculated":"886.93","expected":"960.18"}
+{"calculated":"885.93","expected":"960.18"}
+{"calculated":"884.93","expected":"960.18"}
+{"calculated":"883.93","expected":"960.18"}
+{"calculated":"882.93","expected":"960.18"}
+{"calculated":"881.93","expected":"960.18"}
+{"calculated":"880.93","expected":"960.18"}
+{"calculated":"879.93","expected":"960.18"}
+{"calculated":"878.93","expected":"960.18"}
+{"calculated":"877.93","expected":"960.18"}
+{"calculated":"876.93","expected":"960.18"}
+{"calculated":"875.93","expected":"960.18"}
+{"calculated":"874.93","expected":"960.18"}
+{"calculated":"873.93","expected":"960.18"}
+{"calculated":"872.93","expected":"960.18"}
+{"calculated":"871.93","expected":"960.18"}
+{"calculated":"870.93","expected":"960.18"}
+{"calculated":"869.93","expected":"960.18"}
+{"calculated":"868.93","expected":"960.18"}
+{"calculated":"867.93","expected":"960.18"}
+{"calculated":"866.93","expected":"960.18"}
+{"calculated":"865.93","expected":"960.18"}
+{"calculated":"864.93","expected":"960.18"}
+{"calculated":"863.93","expected":"960.18"}
+{"calculated":"862.93","expected":"960.18"}
+{"calculated":"861.93","expected":"960.18"}
+{"calculated":"860.93","expected":"960.18"}
+{"calculated":"859.93","expected":"960.18"}
+{"calculated":"858.93","expected":"960.18"}
+{"calculated":"857.93","expected":"960.18"}
+{"calculated":"915.93","expected":"960.18"}
+{"calculated":"855.93","expected":"960.18"}
+{"calculated":"854.93","expected":"960.18"}
+{"calculated":"853.93","expected":"960.18"}
+{"calculated":"852.93","expected":"960.18"}
+{"calculated":"851.93","expected":"960.18"}
+{"calculated":"850.93","expected":"960.18"}
+{"calculated":"849.93","expected":"960.18"}
+{"calculated":"848.93","expected":"960.18"}
+{"calculated":"847.93","expected":"960.18"}
+{"calculated":"846.93","expected":"960.18"}
+{"calculated":"845.93","expected":"960.18"}
+{"calculated":"844.93","expected":"960.18"}
+{"calculated":"843.93","expected":"960.18"}
+{"calculated":"916.93","expected":"960.18"}
+{"calculated":"842.93","expected":"960.18"}
+{"calculated":"841.93","expected":"960.18"}
+{"calculated":"839.93","expected":"960.18"}
+{"calculated":"838.93","expected":"960.18"}
+{"calculated":"837.93","expected":"960.18"}
+{"calculated":"836.93","expected":"960.18"}
+{"calculated":"835.93","expected":"960.18"}
+{"calculated":"834.93","expected":"960.18"}
+{"calculated":"833.93","expected":"960.18"}
+{"calculated":"832.93","expected":"960.18"}
+{"calculated":"831.93","expected":"960.18"}
+{"calculated":"830.93","expected":"960.18"}
+{"calculated":"829.93","expected":"960.18"}
+{"calculated":"828.93","expected":"960.18"}
+{"calculated":"827.93","expected":"960.18"}
+{"calculated":"826.93","expected":"960.18"}
+{"calculated":"825.93","expected":"960.18"}
+{"calculated":"824.93","expected":"960.18"}
+{"calculated":"823.93","expected":"960.18"}
+{"calculated":"822.93","expected":"960.18"}
+{"calculated":"821.93","expected":"960.18"}
+{"calculated":"820.93","expected":"960.18"}
+{"calculated":"819.93","expected":"960.18"}
+{"calculated":"818.93","expected":"960.18"}
+{"calculated":"817.93","expected":"960.18"}
+{"calculated":"816.93","expected":"960.18"}
+{"calculated":"815.93","expected":"960.18"}
+{"calculated":"814.93","expected":"960.18"}
+{"calculated":"813.93","expected":"960.18"}
+{"calculated":"812.93","expected":"960.18"}
+{"calculated":"811.93","expected":"960.18"}
+{"calculated":"810.93","expected":"960.18"}
+{"calculated":"809.93","expected":"960.18"}
+{"calculated":"808.93","expected":"960.18"}
+{"calculated":"807.93","expected":"960.18"}
+{"calculated":"806.93","expected":"960.18"}
+{"calculated":"805.93","expected":"960.18"}
+{"calculated":"804.93","expected":"960.18"}
+{"calculated":"803.93","expected":"960.18"}
+{"calculated":"802.93","expected":"960.18"}
+{"calculated":"801.93","expected":"960.18"}
+{"calculated":"800.93","expected":"960.18"}
+{"calculated":"799.93","expected":"960.18"}
+{"calculated":"798.93","expected":"960.18"}
+{"calculated":"797.93","expected":"960.18"}
+{"calculated":"796.93","expected":"960.18"}
+{"calculated":"795.93","expected":"960.18"}
+{"calculated":"794.93","expected":"960.18"}
+{"calculated":"793.93","expected":"960.18"}
+{"calculated":"792.93","expected":"960.18"}
+{"calculated":"791.93","expected":"960.18"}
+{"calculated":"790.93","expected":"960.18"}
+{"calculated":"789.93","expected":"960.18"}
+{"calculated":"788.93","expected":"960.18"}
+{"calculated":"787.93","expected":"960.18"}
+{"calculated":"786.93","expected":"960.18"}
+{"calculated":"785.93","expected":"960.18"}
+{"calculated":"784.93","expected":"960.18"}
+{"calculated":"783.93","expected":"960.18"}
+{"calculated":"782.93","expected":"960.18"}
+{"calculated":"781.93","expected":"960.18"}
+{"calculated":"780.93","expected":"960.18"}
+{"calculated":"779.93","expected":"960.18"}
+{"calculated":"778.93","expected":"960.18"}
+{"calculated":"777.93","expected":"960.18"}
+{"calculated":"776.93","expected":"960.18"}
+{"calculated":"775.93","expected":"960.18"}
+{"calculated":"774.93","expected":"960.18"}
+{"calculated":"773.93","expected":"960.18"}
+{"calculated":"772.93","expected":"960.18"}
+{"calculated":"771.93","expected":"960.18"}
+{"calculated":"770.93","expected":"960.18"}
+{"calculated":"769.93","expected":"960.18"}
+{"calculated":"768.93","expected":"960.18"}
+{"calculated":"767.93","expected":"960.18"}
+{"calculated":"766.93","expected":"960.18"}
+{"calculated":"765.93","expected":"960.18"}
+{"calculated":"764.93","expected":"960.18"}
+{"calculated":"763.93","expected":"960.18"}
+{"calculated":"762.93","expected":"960.18"}
+{"calculated":"761.93","expected":"960.18"}
+{"calculated":"760.93","expected":"960.18"}
+{"calculated":"759.93","expected":"960.18"}
+{"calculated":"758.93","expected":"960.18"}
+{"calculated":"757.93","expected":"960.18"}
+{"calculated":"756.93","expected":"960.18"}
+{"calculated":"755.93","expected":"960.18"}
+{"calculated":"754.93","expected":"960.18"}
+{"calculated":"753.93","expected":"960.18"}
+{"calculated":"953.93","expected":"960.18"}
+{"calculated":"751.93","expected":"960.18"}
+{"calculated":"750.93","expected":"960.18"}
+{"calculated":"749.93","expected":"960.18"}
+{"calculated":"748.93","expected":"960.18"}
+{"calculated":"747.93","expected":"960.18"}
+{"calculated":"856.93","expected":"960.18"}
+{"calculated":"745.93","expected":"960.18"}
+{"calculated":"744.93","expected":"960.18"}
+{"calculated":"743.93","expected":"960.18"}
+{"calculated":"742.93","expected":"960.18"}
+{"calculated":"741.93","expected":"960.18"}
+{"calculated":"740.93","expected":"960.18"}
+{"calculated":"739.93","expected":"960.18"}
+{"calculated":"738.93","expected":"960.18"}
+{"calculated":"737.93","expected":"960.18"}
+{"calculated":"736.93","expected":"960.18"}
+{"calculated":"735.93","expected":"960.18"}
+{"calculated":"734.93","expected":"960.18"}
+{"calculated":"733.93","expected":"960.18"}
+{"calculated":"732.93","expected":"960.18"}
+{"calculated":"731.93","expected":"960.18"}
+{"calculated":"730.93","expected":"960.18"}
+{"calculated":"729.93","expected":"960.18"}
+{"calculated":"728.93","expected":"960.18"}
+{"calculated":"727.93","expected":"960.18"}
+{"calculated":"726.93","expected":"960.18"}
+{"calculated":"725.93","expected":"960.18"}
+{"calculated":"724.93","expected":"960.18"}
+{"calculated":"723.93","expected":"960.18"}
+{"calculated":"722.93","expected":"960.18"}
+{"calculated":"752.93","expected":"960.18"}
+{"calculated":"746.93","expected":"960.18"}
+{"calculated":"840.93","expected":"960.18"}
+{"calculated":"721.93","expected":"960.18"}
+{"calculated":"720.93","expected":"960.18"}
+{"calculated":"716.93","expected":"960.18"}
+{"calculated":"715.93","expected":"960.18"}
+{"calculated":"714.93","expected":"960.18"}
+{"calculated":"713.93","expected":"960.18"}
+{"calculated":"717.93","expected":"960.18"}
+{"calculated":"718.93","expected":"960.18"}
+{"calculated":"719.93","expected":"960.18"}
