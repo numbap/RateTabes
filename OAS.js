@@ -4,7 +4,7 @@ function calculateOAS(PE, YEARS = 40, AGE = 65, DEFER = 0, DATE = "2024-04-01") 
   
 
   // Partial pensions introduced in July 1977. Calculator tool only goes back to 2001
-  const YBO = (YEARS/40) * PE;
+  const YBO = (Math.min(YEARS, 40)/40) * PE;
 
   // Adjust bonus75 and deferralFactor based on DATE
   const dateObj = new Date(DATE);

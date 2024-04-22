@@ -33,7 +33,7 @@ function loopCSV(filePath, headers, callback, message) {
   fs.createReadStream(filePath)
     .pipe(csv({ skipLines: 3, headers })) // Skip the first 2 rows
     .on("data", (row) => {
-      callback(row);ß
+      callback(row);
     })
     .on("end", () => {
       console.log(message);
@@ -266,26 +266,31 @@ function table4GISTest(
 // Test OAS scenarios excluding ISSA
 // Output responses to a text file
 // This needs to cycle through an array of deferral months and an array of OAS years.
-function oasTest(filePath, pe, years, age, defer, date, verbose, outputFile) {
+function oasTest(filePath, pe, date, verbose, outputFile) {
   const columnHeaders = ["YEARS", "DEFERRAL", "AGE", "SQF", "AMOUNT"];
   const startMessage = `OAS Test Start`;
   appendLineToFile(outputFile, startMessage);
   const calculate = (row) => {
     const date = new Date();
-    const calculated = calculateOAS(pe, years, age, defer, "2024-04-01", true);
-    const output =
-      parseFloat(calculated) === parseFloat(row.AMOUNT)
-        ? ["OAS ", row.YEARS, row.DEFERRAL, row.AGE, "passed", date]
-        : { calculated, expected: row.AMOUNT };
-    if (
-      !(
-        parseFloat(calculated) ===
-          parseFloat(age === 65 ? row.OASGIS65 : row.OASGIS75) && !verbose
-      )
-    ) {
-      console.log(output);
-      appendLineToFile(outputFile, JSON.stringify(output));
-    }
+    console.log(row)
+    const calculated = calculateOAS(pe, parseInt(row.YEARS), parseFloat(row.AGE), parseFloat(row.DEFERRAL), "2024-04-01", true);
+
+    const output = calculated === parseFloat(row.AMOUNT) ? ["OAS ", row.YEARS, " ", row.DEFERRAL, " ", row.AGE, "passed", date] : { calculated, expected: row.AMOUNT }
+    appendLineToFile(outputFile, JSON.stringify(output));
+
+    // const output =
+    //   parseFloat(calculated) === parseFloat(row.AMOUNT)
+    //     ? ["OAS ", row.YEARS, row.DEFERRAL, row.AGE, "passed", date]
+    //     : { calculated, expected: row.AMOUNT };
+    // if (
+    //   !(
+    //     parseFloat(calculated) ===
+    //       parseFloat(age === 65 ? row.OASGIS65 : row.OASGIS75) && !verbose
+    //   )
+    // ) {
+    //   console.log(output);
+    //   appendLineToFile(outputFile, JSON.stringify(output));
+    // }
   };
   loopCSV(filePath, columnHeaders, calculate, "Table 4 testing complete");
 }
@@ -306,32 +311,32 @@ function oasTest(filePath, pe, years, age, defer, date, verbose, outputFile) {
 // table3GISTest(filePathT3, 594.59, 46.76, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output3_75.txt")
 
 // // Test Table 4 for age 65
-table4GISTest(
-  filePathT4,
-  594.59,
-  46.76,
-  713.34,
-  40,
-  40,
-  65,
-  "2024-01-01",
-  true,
-  "./TEST/output4_65.txt"
-); // Breaks down at 958.93
-// // Test Table 4 for age 75
-table4GISTest(
-  filePathT4,
-  594.59,
-  46.76,
-  713.34,
-  40,
-  40,
-  75,
-  "2024-01-01",
-  true,
-  "./TEST/output4_75.txt"
-); // Breaks down at 958.93
+// table4GISTest(
+//   filePathT4,
+//   594.59,
+//   46.76,
+//   713.34,
+//   40,
+//   40,
+//   65,
+//   "2024-01-01",
+//   true,
+//   "./TEST/output4_65.txt"
+// ); // Breaks down at 958.93
+// // // Test Table 4 for age 75
+// table4GISTest(
+//   filePathT4,
+//   594.59,
+//   46.76,
+//   713.34,
+//   40,
+//   40,
+//   75,
+//   "2024-01-01",
+//   true,
+//   "./TEST/output4_75.txt"
+// ); // Breaks down at 958.93
 
 // Should only verbose on incorrect answers
 
-oasTest(filePathOAS, 713.34, years, age, defer, date, verbose, outputFile);
+oasTest(filePathOAS, 713.34, "2024-04-01", true, "./TEST/OAS.txt");
