@@ -20,16 +20,16 @@ function calculateTable3GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "20
   const FMP = AGE >= 75 ? PE * 1.1 : PE
 
   // Calculate Years Based OAS
-  const YOAS = (Math.min(YEARS, 40)/40) * FMP
-  const IAA4 = roundUp(PE / 4, 1) * SQF
-  const PMYBG = (SE + PE - YOAS).toFixed(2) * SQF
+  const YOAS = (Math.min(YEARS, 40)/40) * PE
+  const PMYBG = (SE + FMP - YOAS) * SQF // Section 12(5) Part 1 : [(A - B) * C]
   const MBI = min0((INC / 24) - (roundUp(FMP * SQF, 4)/2)) // Monthly Base Income as per Section 12(6)(b)
   const INC4000 = min0(roundDown((INC-4000)/24, 4))
-  const TOPUP = min0((TU * SQF) - INC4000) // Additional amount as per sections 12.1(1)
-  
-  
-  
-  const GIS = PMYBG - roundDown(MBI, 2)/2 // Pensioners monthly base income rounded down to the next lower multiple of $2
+
+
+  const TOPUP = min0((TU * SQF) - (INC4000/4)) // Additional amount as per sections 12.1(1)
+  const GIS = min0(PMYBG - roundDown(MBI, 2)/2) // Section 12(5) Part 2 : with D/2 substracted. Pensioners monthly base income rounded down to the next lower multiple of $2
+
+  // console.log(GIS.toFixed(2), TOPUP, FMP.toFixed(2), SQF, MBI)
   // const PMTUG = (TU).toFixed(2) * SQF
 
   // const section12_5 = PMYBG - (RINC2 / 2)
@@ -39,12 +39,12 @@ function calculateTable3GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "20
   // const BINC = PMTUG - ((INC-4000) / 96)
   // const GIS = min0(PMYBG - AINC) + min0(PMTUG-BINC) + YOAS
 
-  return (GIS+FMP+TOPUP).toFixed(2);
+  return (GIS+PE+TOPUP).toFixed(2);
 }
 
 // Example usage
 // Supplement Equivalent (SE)
-const SE = 900.43; // Example values, replace with actual values
+const SE = 900.43; // Example values, replace with actual values. "Aggregate maximum supplement"
 // Top-Up (TU)
 const TU = 165.04;
 // Pension Equivalent (PE)
@@ -53,6 +53,21 @@ const PE = 713.34;
 const YEARS = 40
 // Client age
 const AGE = 65
+
+
+
+// // Example usage
+// // Supplement Equivalent (SE)
+// const SE = 790.79; // Example values, replace with actual values. "Aggregate maximum supplement"
+// // Top-Up (TU)
+// const TU = 144.93;
+// // Pension Equivalent (PE)
+// const PE = 626.49;
+// // OAS and International Years
+// const YEARS = 40
+// // Client age
+// const AGE = 65
+
 
 
 console.log("=======================================");

@@ -1,6 +1,6 @@
 const { roundUp, roundDown, min0 } = require("./utils.js");
 
-function calculateTable1GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "2024-04-01") {
+function calculateTable1GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "2024-04-01", addOAS = false) {
   //////////////////////////////////////////////////////////////////
   // This function is accurate for rates from 04-01-2024 and beyond
   // Cannot handle retroactive rate calculations
@@ -27,12 +27,13 @@ function calculateTable1GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "20
   const MBI4K = Math.floor(min0(INC - 2000) / 48);
 
   // Calculate Base Summplement (BS)
-  const BS = ((SE + FMP - YOAS) * SQF) - MBIA
+  const BS = ((SE + PE - YOAS) * SQF) - MBIA
 
   // Calculate Modified Top-Up (MTU)
   const MTU = min0((TU * SQF) - MBI4K)
 
-  const GIS = BS + MTU + FMP;
+  // By default, this only returns GIS. However we can add the FMP for testing purposes
+  const GIS = addOAS ? BS + MTU + FMP : BS + MTU;
 
 
   return GIS.toFixed(2);
@@ -49,20 +50,6 @@ const PE = 713.34;
 const YEARS = 40
 // Client age
 const AGE = 65
-
-
-console.log("=======================================");
-console.log(0, calculateTable1GIS(SE, TU, PE, 0, YEARS, YEARS, AGE), ":", 1778.81, ":", 1850.14);
-console.log(100, calculateTable1GIS(SE, TU, PE, 100, YEARS, YEARS, AGE), ":", 1774.81, ":", 1846.14);
-console.log(1000, calculateTable1GIS(SE, TU, PE, 1000, YEARS, YEARS, AGE), ":", 1737.81, ":", 1809.14);
-console.log(2500, calculateTable1GIS(SE, TU, PE, 2500, YEARS, YEARS, AGE), ":", 1664.81, ":", 1736.14);
-console.log(5000, calculateTable1GIS(SE, TU, PE, 5000, YEARS, YEARS, AGE), ":", 1508.81, ":", 1580.14);
-console.log(8000, calculateTable1GIS(SE, TU, PE, 8000, YEARS, YEARS, AGE), ":", 1320.81, ":", 1392.14);
-console.log(10000, calculateTable1GIS(SE, TU, PE, 10000, YEARS, YEARS, AGE), ":", 1197.77, ":", 1269.10);
-console.log(12000, calculateTable1GIS(SE, TU, PE, 12000, YEARS, YEARS, AGE), ":", 1113.77, ":", 1185.10);
-console.log(15000, calculateTable1GIS(SE, TU, PE, 15000, YEARS, YEARS, AGE), ":", 988.77, ":", 1060.10);
-console.log(17500, calculateTable1GIS(SE, TU, PE, 17500, YEARS, YEARS, AGE), ":", 884.77, ":", 956.10);
-console.log(20000, calculateTable1GIS(SE, TU, PE, 20000, YEARS, YEARS, AGE), ":", 780.77, ":", 852.10);
 
 module.exports = { calculateTable1GIS };
 

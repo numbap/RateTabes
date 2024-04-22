@@ -1,0 +1,18 @@
+{
+  "name": "rate-table-calc",
+  "version": "1.0.0",
+  "description": "Calculates rate tables for income-tested benefits",
+  "main": "OAS.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/numbap/RateTabes"
+  },
+  "author": "Patrick Jobin",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}
