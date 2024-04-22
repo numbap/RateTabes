@@ -305,10 +305,10 @@ function oasTest(filePath, pe, date, verbose, outputFile) {
 // Test Table 2 for age 75
 // table2GISTest(filePathT2, 594.59, 46.76, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output2_75.txt") // Passed
 
-// // Test Table 3 for age 65
-// table3GISTest(filePathT3, 594.59, 46.76, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output3_65.txt")
-// // Test Table 3 for age 75
-// table3GISTest(filePathT3, 594.59, 46.76, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output3_75.txt")
+// Test Table 3 for age 65
+table3GISTest(filePathT3, 594.59, 46.76, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output3_65.txt")
+// Test Table 3 for age 75
+table3GISTest(filePathT3, 594.59, 46.76, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output3_75.txt")
 
 // // Test Table 4 for age 65
 // table4GISTest(
@@ -339,4 +339,4 @@ function oasTest(filePath, pe, date, verbose, outputFile) {
 
 // Should only verbose on incorrect answers
 
-oasTest(filePathOAS, 713.34, "2024-04-01", true, "./TEST/OAS.txt");
+// oasTest(filePathOAS, 713.34, "2024-04-01", true, "./TEST/OAS.txt");
