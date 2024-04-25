@@ -22,7 +22,7 @@ function calculateTable3GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "20
   // Calculate Years Based OAS
   const YOAS = (Math.min(YEARS, 40)/40) * PE
   const PMYBG = (SE + FMP - YOAS) * SQF // Section 12(5) Part 1 : [(A - B) * C]
-  const MBI = min0((INC / 24) - (roundUp(FMP * SQF, 4)/2)) // Monthly Base Income as per Section 12(6)(b)
+  const MBI = min0((INC / 24) - (roundUp(PE * SQF, 4)/2)) // Monthly Base Income as per Section 12(6)(b)
   const INC4000 = min0(roundDown((INC-4000)/24, 4))
 
 
