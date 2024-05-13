@@ -51,18 +51,18 @@ const YEARS = 40
 const AGE = 65
 
 
-// console.log("=======================================");
-// console.log(0, calculateTable2GIS(SE, TU, PE, 0, YEARS, YEARS, AGE), ":", 1354.69, ":", 1426.02);
-// console.log(100, calculateTable2GIS(SE, TU, PE, 100, YEARS, YEARS, AGE), ":", 1352.69, ":", 1424.02);
-// console.log(1000, calculateTable2GIS(SE, TU, PE, 1000, YEARS, YEARS, AGE), ":", 1334.69, ":", 1406.02);
-// console.log(2500, calculateTable2GIS(SE, TU, PE, 2500, YEARS, YEARS, AGE), ":", 1302.69, ":", 1374.02);
-// console.log(5000, calculateTable2GIS(SE, TU, PE, 5000, YEARS, YEARS, AGE), ":", 1240.69, ":", 1312.02);
-// console.log(8000, calculateTable2GIS(SE, TU, PE, 8000, YEARS, YEARS, AGE), ":", 1147.69, ":", 1219.02);
-// console.log(10000, calculateTable2GIS(SE, TU, PE, 10000, YEARS, YEARS, AGE), ":", 1099.93, ":", 1171.26);
-// console.log(12000, calculateTable2GIS(SE, TU, PE, 12000, YEARS, YEARS, AGE), ":", 1057.93, ":", 1129.26);
-// console.log(15000, calculateTable2GIS(SE, TU, PE, 15000, YEARS, YEARS, AGE), ":", 995.93, ":", 1067.26);
-// console.log(20000, calculateTable2GIS(SE, TU, PE, 20000, YEARS, YEARS, AGE), ":", 891.93, ":", 963.26);
-// console.log(25000, calculateTable2GIS(SE, TU, PE, 25000, YEARS, YEARS, AGE), ":", 787.93, ":", 859.26);
-// console.log(30000, calculateTable2GIS(SE, TU, PE, 30000, YEARS, YEARS, AGE), ":", 713.34, ":", 713.34*1.1);
+console.log("=======================================");
+console.log(0, calculateTable2GIS(SE, TU, PE, 0, YEARS, YEARS, AGE, "2024-04-01", true), ":", 1354.69, ":", 1426.02);
+console.log(100, calculateTable2GIS(SE, TU, PE, 100, YEARS, YEARS, AGE, "2024-04-01", true), ":", 1352.69, ":", 1424.02);
+console.log(1000, calculateTable2GIS(SE, TU, PE, 1000, YEARS, YEARS, AGE, "2024-04-01", true), ":", 1334.69, ":", 1406.02);
+console.log(2500, calculateTable2GIS(SE, TU, PE, 2500, YEARS, YEARS, AGE, "2024-04-01", true), ":", 1302.69, ":", 1374.02);
+console.log(5000, calculateTable2GIS(SE, TU, PE, 5000, YEARS, YEARS, AGE, "2024-04-01", true), ":", 1240.69, ":", 1312.02);
+console.log(8000, calculateTable2GIS(SE, TU, PE, 8000, YEARS, YEARS, AGE, "2024-04-01", true), ":", 1147.69, ":", 1219.02);
+console.log(10000, calculateTable2GIS(SE, TU, PE, 10000, YEARS, YEARS, AGE, "2024-04-01", true), ":", 1099.93, ":", 1171.26);
+console.log(12000, calculateTable2GIS(SE, TU, PE, 12000, YEARS, YEARS, AGE, "2024-04-01", true), ":", 1057.93, ":", 1129.26);
+console.log(15000, calculateTable2GIS(SE, TU, PE, 15000, YEARS, YEARS, AGE, "2024-04-01", true), ":", 995.93, ":", 1067.26);
+console.log(20000, calculateTable2GIS(SE, TU, PE, 20000, YEARS, YEARS, AGE, "2024-04-01", true), ":", 891.93, ":", 963.26);
+console.log(25000, calculateTable2GIS(SE, TU, PE, 25000, YEARS, YEARS, AGE, "2024-04-01", true), ":", 787.93, ":", 859.26);
+console.log(30000, calculateTable2GIS(SE, TU, PE, 30000, YEARS, YEARS, AGE, "2024-04-01", true), ":", 713.34, ":", 713.34*1.1);
 
 module.exports = { calculateTable2GIS };

@@ -296,47 +296,47 @@ function oasTest(filePath, pe, date, verbose, outputFile) {
 }
 
 // Test Table 1 for age 65
-// table1GISTest(filePathT1, 900.43, 165.04, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output1_65.txt") // Passed
+table1GISTest(filePathT1, 900.43, 165.04, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output1_65.txt") // Passed
 // Test Table 1 for age 75
-// table1GISTest(filePathT1, 900.43, 165.04, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output1_75.txt") // Passed
+table1GISTest(filePathT1, 900.43, 165.04, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output1_75.txt") // Passed
 
 // Test Table 2 for age 65
-// table2GISTest(filePathT2, 594.59, 46.76, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output2_65.txt") // Passed
+table2GISTest(filePathT2, 594.59, 46.76, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output2_65.txt") // Passed
 // Test Table 2 for age 75
-// table2GISTest(filePathT2, 594.59, 46.76, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output2_75.txt") // Passed
+table2GISTest(filePathT2, 594.59, 46.76, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output2_75.txt") // Passed
 
 // Test Table 3 for age 65
 table3GISTest(filePathT3, 594.59, 46.76, 713.34, 40, 40, 65, "2024-01-01", true, "./TEST/output3_65.txt")
 // Test Table 3 for age 75
 table3GISTest(filePathT3, 594.59, 46.76, 713.34, 40, 40, 75, "2024-01-01", true, "./TEST/output3_75.txt")
 
-// // Test Table 4 for age 65
-// table4GISTest(
-//   filePathT4,
-//   594.59,
-//   46.76,
-//   713.34,
-//   40,
-//   40,
-//   65,
-//   "2024-01-01",
-//   true,
-//   "./TEST/output4_65.txt"
-// ); // Breaks down at 958.93
-// // // Test Table 4 for age 75
-// table4GISTest(
-//   filePathT4,
-//   594.59,
-//   46.76,
-//   713.34,
-//   40,
-//   40,
-//   75,
-//   "2024-01-01",
-//   true,
-//   "./TEST/output4_75.txt"
-// ); // Breaks down at 958.93
+// Test Table 4 for age 65
+table4GISTest(
+  filePathT4,
+  594.59,
+  46.76,
+  713.34,
+  40,
+  40,
+  65,
+  "2024-01-01",
+  true,
+  "./TEST/output4_65.txt"
+); // Breaks down at 958.93
+// // Test Table 4 for age 75
+table4GISTest(
+  filePathT4,
+  594.59,
+  46.76,
+  713.34,
+  40,
+  40,
+  75,
+  "2024-01-01",
+  true,
+  "./TEST/output4_75.txt"
+); // Breaks down at 958.93
 
 // Should only verbose on incorrect answers
 
-// oasTest(filePathOAS, 713.34, "2024-04-01", true, "./TEST/OAS.txt");
+oasTest(filePathOAS, 713.34, "2024-04-01", true, "./TEST/OAS.txt");
