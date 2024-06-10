@@ -19,7 +19,7 @@ function calculateTable2GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "20
   // Each member of a couple has their individual income determined as though they were single, i.e. their own net income under the Income Tax Act, subject to allowable deductions under “income” in s.2 of the OAS Act, and then their single incomes added together.
   //
   // IO Years (IYEARS)
-  //This is the person’s number of full years in Canada at the time of the payment months being calculated.
+  // This is the person’s number of full years in Canada at the time of the payment months being calculated.
   // Date to be used in future iterations for retroactive calculations
   //
   // Calculate Special Qualifying Factor (SQF)
