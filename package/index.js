@@ -7,10 +7,15 @@ const calculateTable4GIS = require("./Table4GIS")
 const calculateTable4ALW = require("./Table4ALW")
 const calculateTable5ALWS = require("./Table5ALWS")
 
-const app = express();
-const port = 3000;
+
+function testMessage(){
+    console.log("Package is working")
+}
 
 function runApi(){
+    const app = express();
+    const port = 3000;
+
     // Middleware to parse JSON bodies
     app.use(express.json());
 
@@ -63,4 +68,4 @@ function incomeTestedCalc(input){
     }
 }
 
-module.exports = {incomeTestedCalc, runApi};
+module.exports = {incomeTestedCalc, runApi, testMessage};
