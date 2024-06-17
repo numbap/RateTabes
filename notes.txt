@@ -1,8 +1,0 @@
-Results Object is output. 
-
-entitlement formula 
-input are 
- 
-income, maritalstatus, partnerbenefutstatus, age, oasResult, inputAge 
- 
-returns the amount from whatever table deems necessary  
