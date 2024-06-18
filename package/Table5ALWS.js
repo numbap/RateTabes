@@ -118,19 +118,19 @@ const TU = 165.04;
 // Pension Equivalent (PE)
 const PE = 713.34;
 
-console.log("=======================================");
-console.log(0, calculateTable5ALWS(SE, TU, PE, 0), ":", 1449.85);
-console.log(100, calculateTable5ALWS(SE, TU, PE, 100), ":", 1443.85);
-console.log(1000, calculateTable5ALWS(SE, TU, PE, 1000), ":", 1389.85);
-console.log(2500, calculateTable5ALWS(SE, TU, PE, 2500), ":", 1293.85);
-console.log(5000, calculateTable5ALWS(SE, TU, PE, 5000), ":", 1137.85);
-console.log(8000, calculateTable5ALWS(SE, TU, PE, 8000), ":", 951.85);
-console.log(10000, calculateTable5ALWS(SE, TU, PE, 10000), ":", 825.85);
-console.log(12000, calculateTable5ALWS(SE, TU, PE, 12000), ":", 712.51);
-console.log(15000, calculateTable5ALWS(SE, TU, PE, 15000), ":", 587.51);
-console.log(17500, calculateTable5ALWS(SE, TU, PE, 17500), ":", 483.51);
-console.log(20000, calculateTable5ALWS(SE, TU, PE, 20000), ":", 379.51);
-console.log(25000, calculateTable5ALWS(SE, TU, PE, 25000), ":", 171.51);
-console.log(30000, calculateTable5ALWS(SE, TU, PE, 30000), ":", 0);
+// console.log("=======================================");
+// console.log(0, calculateTable5ALWS(SE, TU, PE, 0), ":", 1449.85);
+// console.log(100, calculateTable5ALWS(SE, TU, PE, 100), ":", 1443.85);
+// console.log(1000, calculateTable5ALWS(SE, TU, PE, 1000), ":", 1389.85);
+// console.log(2500, calculateTable5ALWS(SE, TU, PE, 2500), ":", 1293.85);
+// console.log(5000, calculateTable5ALWS(SE, TU, PE, 5000), ":", 1137.85);
+// console.log(8000, calculateTable5ALWS(SE, TU, PE, 8000), ":", 951.85);
+// console.log(10000, calculateTable5ALWS(SE, TU, PE, 10000), ":", 825.85);
+// console.log(12000, calculateTable5ALWS(SE, TU, PE, 12000), ":", 712.51);
+// console.log(15000, calculateTable5ALWS(SE, TU, PE, 15000), ":", 587.51);
+// console.log(17500, calculateTable5ALWS(SE, TU, PE, 17500), ":", 483.51);
+// console.log(20000, calculateTable5ALWS(SE, TU, PE, 20000), ":", 379.51);
+// console.log(25000, calculateTable5ALWS(SE, TU, PE, 25000), ":", 171.51);
+// console.log(30000, calculateTable5ALWS(SE, TU, PE, 30000), ":", 0);
 
 module.exports = { calculateTable5ALWS };

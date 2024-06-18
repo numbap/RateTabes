@@ -53,7 +53,7 @@ function calculateTable1GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "20
   const MTU = min0((TU * SQF) - MBI2K) 
 
   // By default, this only returns GIS. However we can add the FMP for testing purposes
-  const GIS = addOAS ? BS + MTU + FMP : BS + MTU + FMP - PE;
+  const GIS = addOAS ? BS + MTU + FMP : Math.max(BS + MTU + FMP - PE, 0);
 
   return GIS.toFixed(2);
 }
