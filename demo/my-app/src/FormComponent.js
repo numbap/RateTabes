@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {incomeTestedCalc, testMessage} from 'kc983po';
+import {incomeTestedCalc} from 'kc983po';
 
 const FormComponent = () => {
   const [formData, setFormData] = useState({
@@ -35,7 +35,7 @@ const AGE = 65
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="max-w-lg w-full p-8 bg-white shadow-lg rounded-lg">
-        <h2 className="text-3xl font-semibold mb-8 text-gray-800 text-center">Form</h2>
+        <h2 className="text-3xl font-semibold mb-8 text-gray-800 text-center">Income Tested Benefit</h2>
         <form>
           {/* Table Drop Down */}
           <div className="mb-6">
@@ -131,17 +131,8 @@ const AGE = 65
               placeholder="Enter deferral months"
             />
           </div>
-
-          <div className="flex items-center justify-center">
-            <button
-              type="submit"
-              className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-            >
-              Submit
-            </button>
-          </div>
         </form>
-        <div>{formData.total}</div>
+        <div className="text-8xl">${formData.total}</div>
       </div>
     </div>
   );

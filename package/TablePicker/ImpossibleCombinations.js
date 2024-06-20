@@ -1,0 +1,1 @@
+// This function checks for impossible combinations
