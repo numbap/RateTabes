@@ -2,7 +2,7 @@ const widowed = (input) => {
     if(client.alws.active && client.oas.active){
         // This is an error. Both cannot be active at the same time
     }
-    if(input.status === WIDDOWED){
+    if(input.status === "widowed"){
         if(client.oas.active){
             // GIS on Table 1
         }
@@ -12,8 +12,9 @@ const widowed = (input) => {
         if(client.age > 60 && client.age <= 65){
             // client may be eligible for ALWS
         }
-        // If within ALWS age
-    
+        if(client.age <= 60){
+            // client too young for ALWS
+        }    
     }else{
         // Return an error
     }

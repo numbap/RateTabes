@@ -1,33 +1,61 @@
 const { roundUp, roundDown, min0 } = require("./utils.js");
 
 function calculateTable3GIS(SE, TU, PE, INC, YEARS, IYEARS = 10, AGE, DATE = "2024-04-01", addOAS = false) {
-  //////////////////////////////////////////////////////////////////
-  // This function is accurate for rates from 04-01-2024 and beyond
-  // Cannot handle retroactive rate calculations
-  // Cannot handle International Operations calculations
-  //////////////////////////////////////////////////////////////////
-  // Supplement Equivalent - Single (SE) 
-  // Top-Up - Single (TU)
-  // Pension Equivalent (PE)
-  // Single Income (INC)
-  // IO Years (IYEARS)
-  // Date to be used in future iterations for retroactive calculations
+//////////////////////////////////////////////////////////////////
+// This function is accurate for rates from 04-01-2024 and beyond
+// Cannot handle retroactive rate calculations
+// Cannot handle International Operations calculations
+//////////////////////////////////////////////////////////////////
+// Supplement Equivalent – Married to Non-Pensioner (SE)
+// This is the maximum GIS rate for a pensioner married to a non-pensioner, not including the top-up as provided for under s.12 of the OAS Act. It is the same as the single rate.
 
-  // Calculate Special Qualifying Factor (SQF)
+// Top-Up – Married to Non-Pensioner (TU)
+//This is the maximum Top-Up rate for a pensioner married to a non-pensioner as provided for under ss. 12.1(1) of the OAS Act.
+
+// Pension Equivalent (PE)
+//This is the maximum OAS rate, i.e. 40/40ths
+
+// Joint Income (INC)
+//Each member of a couple has their individual income determined as though they were single, i.e. their own net income under the Income Tax Act, subject to allowable deductions under “income” in s.2 of the OAS Act, and then their single incomes added together.
+
+// IO Years (IYEARS)
+//This is the person’s number of full years in Canada at the time of the payment months being calculated.
+// Date to be used in future iterations for retroactive calculations
+
+// Calculate Special Qualifying Factor (SQF)
+//This fraction is the number of years of Canadian residence over 10 to a maximum of 10 years. This number is usually 1 unless the person is a recent immigrant. Definition of SQF found in s.2 of OAS Act.
+
   const SQF = Math.min(1, IYEARS/10);
 
-  // Calculate Full Monthly Pension
+// Calculate Full Monthly Pension
+//This is the maximum OAS Rate, i.e. 40/40ths. If person over 75, max OAS rate is 10% higher than age 65 rate per s.7 of OAS Act.
   const FMP = AGE >= 75 ? PE * 1.1 : PE
 
-  // Calculate Years Based OAS
+// Calculate Years Based OAS
+//This is the actual OAS rate the person is entitled to, whether a full pension or a partial rate determined under s.3 of the OAS Act.
+
   const YOAS = (Math.min(YEARS, 40)/40) * PE
-  const PMYBG = (SE + FMP - YOAS) * SQF // Section 12(5) Part 1 : [(A - B) * C]
-  const MBI = min0((INC / 24) - (roundUp(PE * SQF, 4)/2)) // Monthly Base Income as per Section 12(6)(b)
+
+
+  // This is Part 1 of the GIS formula under Section 12(5): [(A - B) * C]
+//(Max GIS rate (without top-up) + Max OAS rate – pensioners actual OAS monthly rate) x Special Qualifying Factor
+  const PMYBG = (SE + FMP - YOAS) * SQF 
+
+  //This is Part 2 of the GIS formula under Section 12(5), the income reduction piece: [-D/2]
+//(The couple’s joint annual income/24 – Full monthly pension (always +65 rate) x Special Qualifying Factor (rounded, where not a multiple of 4 to the next higher multiple of 4)/2). This is the Monthly Base Income as determined under paragraph 12(6)(b) of the OAS Act.
+
+  const MBI = min0((INC / 24) - (roundUp(PE * SQF, 4)/2)) 
+
+//This is the income reduction piece of the Top-up formula: [-C/4]
+//The couple’s joint annual income/24 that is in excess of $4,000 (rounded, where not a multiple of 4, to the next lower multiple of 4.)
   const INC4000 = min0(roundDown((INC-4000)/24, 4))
 
+// This is the Top-up formula under subsection 12.1 (1)
+  const TOPUP = min0((TU * SQF) - (INC4000/4)) 
 
-  const TOPUP = min0((TU * SQF) - (INC4000/4)) // Additional amount as per sections 12.1(1)
-  const GIS = min0(PMYBG - roundDown(MBI, 2)/2) // Section 12(5) Part 2 : with D/2 substracted. Pensioners monthly base income rounded down to the next lower multiple of $2
+
+  // Once the regular GIS piece is calculated under subsection 12(5) and the Top-up piece is calculated under subsection 12.1(1), the two parts are added together to form the one GIS amount paid to the client.
+  const GIS = min0(PMYBG - roundDown(MBI, 2)/2) 
 
   return (GIS+PE+TOPUP).toFixed(2);
 }
