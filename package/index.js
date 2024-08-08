@@ -18,23 +18,23 @@ function incomeTestedCalc(input){
             console.log("Table 1 Calculation");
             return calculateTable1GIS(SE, TU, PE, INC, YEARS, IYEARS, AGE, DATE, addOAS);
         case '2GIS':
-            console.log("Table 1 Calculation");
+            console.log("Table 2 Calculation");
             return calculateTable2GIS(SE, TU, PE, INC, YEARS, IYEARS, AGE, DATE, addOAS);
 
         case '3GIS':
-            console.log("Table 1 Calculation");
+            console.log("Table 3 Calculation");
             return calculateTable3GIS(SE, TU, PE, INC, YEARS, IYEARS, AGE, DATE, addOAS);
 
         case '4GIS':
-            console.log("Table 1 Calculation");
+            console.log("Table 4 GIS Calculation");
             return calculateTable4GIS(SE, TU, PE, INC, YEARS, IYEARS, AGE, DATE);
 
         case '4ALW':
-            console.log("Table 1 Calculation");
+            console.log("Table 4 ALW Calculation");
             return calculateTable4ALW(SE, TU, PE, INC, IYEARS, DATE);
 
         case '5ALWS':
-            console.log("Table 1 Calculation");
+            console.log("Table 5 Calculation");
             return calculateTable5ALWS(SE, TU, PE, INC, IYEARS, DATE);
         default:
             console.log("No Rate Table Specified");
