@@ -107,6 +107,6 @@ const PE = 718.33;
 const YEARS = 40
 // Client age
 const AGE = 64
-console.log(calculateTable5ALWS(SE, TU, PE, 1000, IYEARS = 10, DATE = "2024-04-01"))
+console.log(calculateTable5ALWS(SE, TU, PE, 20000, IYEARS = 10, DATE = "2024-04-01"))
 
 module.exports = { calculateTable5ALWS };
